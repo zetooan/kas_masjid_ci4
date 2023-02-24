@@ -1,0 +1,52 @@
+CRITICAL - 2022-10-03 03:13:45 --> Undefined property: App\Controllers\User\Home::$load
+in APPPATH\Controllers\User\Home.php on line 11.
+ 1 APPPATH\Controllers\User\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User\\Home::$load', 'APPPATH\\Controllers\\User\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 03:13:46 --> Undefined property: App\Controllers\User\Home::$load
+in APPPATH\Controllers\User\Home.php on line 11.
+ 1 APPPATH\Controllers\User\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User\\Home::$load', 'APPPATH\\Controllers\\User\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 03:13:49 --> Undefined property: App\Controllers\User\Home::$load
+in APPPATH\Controllers\User\Home.php on line 11.
+ 1 APPPATH\Controllers\User\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User\\Home::$load', 'APPPATH\\Controllers\\User\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-03 22:03:03 --> Invalid file: pages/display/navbar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/display/navbar.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/display/navbar.php', [], true)
+ 3 APPPATH\Controllers\User\Pages.php(22): view('pages/display/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User\Pages->tentang()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-03 22:05:30 --> Invalid file: pages/display/navbar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/display/navbar.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/display/navbar.php', [], true)
+ 3 APPPATH\Controllers\User\Pages.php(21): view('pages/display/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User\Pages->tentang()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-03 22:09:15 --> Invalid file: pages/display/navbar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/display/navbar.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/display/navbar.php', [], true)
+ 3 APPPATH\Controllers\User\Pages.php(21): view('pages/display/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User\Pages->tentang()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

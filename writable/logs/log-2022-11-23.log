@@ -1,0 +1,947 @@
+CRITICAL - 2022-11-23 01:02:06 --> Call to a member function fetch_assoc() on bool
+in APPPATH\Controllers\DatapemasukanController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:03:05 --> Call to a member function fetch_assoc() on bool
+in APPPATH\Controllers\DatapemasukanController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:03:57 --> Call to undefined method App\Models\PemasukanKasModel::fetch_assoc
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapemasukanController.php(27): CodeIgniter\Model->__call('fetch_assoc', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:04:02 --> Call to undefined method App\Models\PemasukanKasModel::fetch_assoc
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapemasukanController.php(27): CodeIgniter\Model->__call('fetch_assoc', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 01:04:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '< '2022-11-22'' at line 4 in C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ci\ci_tgs1_21330034\app\Controllers\DatapemasukanController.php(27): CodeIgniter\Model->__call('get', Array)
+#6 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+#7 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+#8 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ci\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\ci\\ci_tgs1_2...')
+#11 {main}
+CRITICAL - 2022-11-23 01:04:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '< '2022-11-22'' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= \'2022-11-21\'
+AND `tanggal` = < \'2022-11-22\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= \'2022-11-21\'
+AND `tanggal` = < \'2022-11-22\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= \'2022-11-21\'
+AND `tanggal` = < \'2022-11-22\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= :tanggal:
+AND `tanggal` = < :tanggal =:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DatapemasukanController.php(27): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 01:07:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '< '2022-11-22'' at line 4 in C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\ci\ci_tgs1_21330034\app\Controllers\DatapemasukanController.php(27): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+#7 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+#8 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ci\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\ci\\ci_tgs1_2...')
+#11 {main}
+CRITICAL - 2022-11-23 01:07:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '< '2022-11-22'' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= \'2022-11-21\'
+AND `tanggal` = < \'2022-11-22\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= \'2022-11-21\'
+AND `tanggal` = < \'2022-11-22\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= \'2022-11-21\'
+AND `tanggal` = < \'2022-11-22\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_pemasukan`
+WHERE `tanggal` >= :tanggal:
+AND `tanggal` = < :tanggal =:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\DatapemasukanController.php(27): CodeIgniter\Model->__call('getWhere', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:25:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 78.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(34): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:25:11 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 78.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(34): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 01:27:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND ?' at line 1 in C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\ci\ci_tgs1_21330034\app\Models\PemasukanKasModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\ci\ci_tgs1_21330034\app\Controllers\DatapemasukanController.php(27): App\Models\PemasukanKasModel->sorttanggal('2022-11-21', '2022-11-22')
+#5 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+#6 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+#7 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\ci\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\ci\\ci_tgs1_2...')
+#10 {main}
+CRITICAL - 2022-11-23 01:27:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND ?' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM tb_pemasukan WHERE tanggal BETWEEN ? AND ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tb_pemasukan WHERE tanggal BETWEEN ? AND ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tb_pemasukan WHERE tanggal BETWEEN ? AND ?')
+ 4 APPPATH\Models\PemasukanKasModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tb_pemasukan WHERE tanggal BETWEEN ? AND ?')
+ 5 APPPATH\Controllers\DatapemasukanController.php(27): App\Models\PemasukanKasModel->sorttanggal('2022-11-21', '2022-11-22')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:32:53 --> Call to undefined method App\Models\PemasukanKasModel::swhere
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapemasukanController.php(31): CodeIgniter\Model->__call('swhere', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:33:30 --> Call to undefined method App\Models\PemasukanKasModel::swhere
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapemasukanController.php(31): CodeIgniter\Model->__call('swhere', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:38:40 --> Attempt to read property "tanggal" on null
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 81.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal" on null', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(34): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:38:43 --> Attempt to read property "tanggal" on null
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 81.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal" on null', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(34): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:39:01 --> Attempt to read property "tanggal" on null
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 81.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tanggal" on null', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(34): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 01:40:14 --> Call to undefined method App\Models\PemasukanKasModel::result
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapemasukanController.php(27): CodeIgniter\Model->__call('result', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:17:07 --> str_split(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\DatapemasukanController.php on line 32.
+ 1 APPPATH\Controllers\DatapemasukanController.php(32): str_split([...], 3)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:18:31 --> Attempt to read property "jumlah" on array
+in APPPATH\Controllers\DatapemasukanController.php on line 32.
+ 1 APPPATH\Controllers\DatapemasukanController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "jumlah" on array', 'APPPATH\\Controllers\\DatapemasukanController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:19:02 --> Call to a member function find() on null
+in APPPATH\Controllers\DatapemasukanController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:20:08 --> Call to a member function fetch_assoc() on bool
+in APPPATH\Controllers\DatapemasukanController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:21:53 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\DatapemasukanController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:26:14 --> Array to string conversion
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 83.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(40): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:27:00 --> Array to string conversion
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 83.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(40): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:27:06 --> Array to string conversion
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 83.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(40): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:31:01 --> Undefined variable $page
+in APPPATH\Views\layout\page_layout.php on line 52.
+ 1 APPPATH\Views\layout\page_layout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\layout\\page_layout.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\Admin\Pages.php(11): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 02:50:29 --> Undefined property: CodeIgniter\View\View::$pemasukan
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 99.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$pemasukan', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(40): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 03:25:10 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 81.
+ 1 APPPATH\Views\pages\admin\pemasukan\list.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\pages\\admin\\pemasukan\\list.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pemasukan\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/pemasukan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 03:33:28 --> mysqli_sql_exception: Unknown column 'ketjumlah' in 'field list' in C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tanggal...', 0)
+#1 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal...')
+#2 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal...')
+#3 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal...', Array, false)
+#4 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\ci\ci_tgs1_21330034\app\Controllers\DatapemasukanController.php(32): CodeIgniter\BaseModel->find()
+#7 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+#8 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+#9 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ci\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\ci\\ci_tgs1_2...')
+#12 {main}
+CRITICAL - 2022-11-23 03:33:28 --> Unknown column 'ketjumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tanggal`, `ketjumlah`
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-24" and "2022-11-12"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal`, `ketjumlah`
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-24" and "2022-11-12"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal`, `ketjumlah`
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-24" and "2022-11-12"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal`, `ketjumlah`
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-24" and "2022-11-12"', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\DatapemasukanController.php(32): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 03:34:38 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Models\PemasukanKasModel.php on line 20.
+ 1 APPPATH\Models\PemasukanKasModel.php(20): number_format('jumlah', 0, 'ROOTPATH\\public', ';')
+ 2 APPPATH\Controllers\DatapemasukanController.php(32): App\Models\PemasukanKasModel->rupiah('jumlah')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 03:36:12 --> Attempt to read property "pemasukan" on array
+in APPPATH\Controllers\DatapemasukanController.php on line 32.
+ 1 APPPATH\Controllers\DatapemasukanController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pemasukan" on array', 'APPPATH\\Controllers\\DatapemasukanController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 05:25:17 --> Call to a member function select() on array
+in APPPATH\Controllers\DatapemasukanController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 05:25:53 --> Call to a member function select() on array
+in APPPATH\Controllers\DatapemasukanController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:18:42 --> Call to undefined method App\Models\PemasukanKasModel::tampilsemua
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapemasukanController.php(32): CodeIgniter\Model->__call('tampilsemua', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:19:47 --> Call to undefined method App\Models\PemasukanKasModel::tampilsemua
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapemasukanController.php(32): CodeIgniter\Model->__call('tampilsemua', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 09:24:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"' at line 1 in C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jum...', 0)
+#1 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jum...')
+#2 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jum...')
+#3 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#4 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\ci\ci_tgs1_21330034\app\Controllers\DatapemasukanController.php(33): CodeIgniter\BaseModel->find()
+#7 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+#8 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+#9 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ci\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\ci\\ci_tgs1_2...')
+#12 {main}
+CRITICAL - 2022-11-23 09:24:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\DatapemasukanController.php(33): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 09:24:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"' at line 1 in C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jum...', 0)
+#1 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jum...')
+#2 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jum...')
+#3 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#4 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\ci\ci_tgs1_21330034\app\Controllers\DatapemasukanController.php(33): CodeIgniter\BaseModel->find()
+#7 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+#8 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+#9 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ci\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\ci\\ci_tgs1_2...')
+#12 {main}
+CRITICAL - 2022-11-23 09:24:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\DatapemasukanController.php(33): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 09:25:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"' at line 1 in C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jum...', 0)
+#1 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jum...')
+#2 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jum...')
+#3 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#4 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\ci\ci_tgs1_21330034\app\Controllers\DatapemasukanController.php(33): CodeIgniter\BaseModel->find()
+#7 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+#8 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+#9 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ci\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\ci\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\ci\\ci_tgs1_2...')
+#12 {main}
+CRITICAL - 2022-11-23 09:25:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS 1
+FROM `tb_pemasukan`
+WHERE `tanggal` BETWEEN "2022-10-01" and "2022-11-01"', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\DatapemasukanController.php(33): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:31:48 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Models\PemasukanKasModel.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Models\\PemasukanKasModel.php', 20)
+ 2 APPPATH\Models\PemasukanKasModel.php(20): number_format(null, 0, 'ROOTPATH\\public', ';')
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): App\Models\PemasukanKasModel->rupiah(null)
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:33:02 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Models\PemasukanKasModel.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Models\\PemasukanKasModel.php', 20)
+ 2 APPPATH\Models\PemasukanKasModel.php(20): number_format(null, 0, 'ROOTPATH\\public', ';')
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): App\Models\PemasukanKasModel->rupiah(null)
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:33:19 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Models\PemasukanKasModel.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Models\\PemasukanKasModel.php', 20)
+ 2 APPPATH\Models\PemasukanKasModel.php(20): number_format(null, 0, 'ROOTPATH\\public', ';')
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): App\Models\PemasukanKasModel->rupiah(null)
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:33:21 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Models\PemasukanKasModel.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Models\\PemasukanKasModel.php', 20)
+ 2 APPPATH\Models\PemasukanKasModel.php(20): number_format(null, 0, 'ROOTPATH\\public', ';')
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): App\Models\PemasukanKasModel->rupiah(null)
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:33:24 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Models\PemasukanKasModel.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Models\\PemasukanKasModel.php', 20)
+ 2 APPPATH\Models\PemasukanKasModel.php(20): number_format(null, 0, 'ROOTPATH\\public', ';')
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): App\Models\PemasukanKasModel->rupiah(null)
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 09:55:25 --> Call to undefined function number_to_amount()
+in APPPATH\Views\pages\admin\pemasukan\list.php on line 99.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pemasukan/list', [], true)
+ 4 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/pemasukan/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 12:28:19 --> Call to undefined function App\Controllers\validateDate()
+in APPPATH\Controllers\DatapemasukanController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 12:28:39 --> checkdate() expects exactly 3 arguments, 1 given
+in APPPATH\Controllers\DatapemasukanController.php on line 26.
+ 1 APPPATH\Controllers\DatapemasukanController.php(26): checkdate('2022-10-24')
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 12:28:57 --> checkdate() expects exactly 3 arguments, 1 given
+in APPPATH\Controllers\DatapemasukanController.php on line 26.
+ 1 APPPATH\Controllers\DatapemasukanController.php(26): checkdate(1988)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 12:30:22 --> checkdate() expects exactly 3 arguments, 1 given
+in APPPATH\Controllers\DatapemasukanController.php on line 26.
+ 1 APPPATH\Controllers\DatapemasukanController.php(26): checkdate(Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 13:17:22 --> preg_match(): Unknown modifier '['
+in APPPATH\Models\PemasukanKasModel.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'[\'', 'APPPATH\\Models\\PemasukanKasModel.php', 20)
+ 2 APPPATH\Models\PemasukanKasModel.php(20): preg_match('/[0-31]{2}/[0-12]{2}/[0-9]{4}/', '2022-10-24')
+ 3 APPPATH\Controllers\DatapemasukanController.php(26): App\Models\PemasukanKasModel->checkDateFormat('2022-10-24')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 13:25:39 --> Undefined array key 1
+in APPPATH\Models\PemasukanKasModel.php on line 34.
+ 1 APPPATH\Models\PemasukanKasModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\PemasukanKasModel.php', 34)
+ 2 APPPATH\Controllers\DatapemasukanController.php(26): App\Models\PemasukanKasModel->checkDateFormat('20221213')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 13:27:13 --> checkdate(): Argument #1 ($month) must be of type int, string given
+in APPPATH\Models\PemasukanKasModel.php on line 34.
+ 1 APPPATH\Models\PemasukanKasModel.php(34): checkdate('ROOTPATH\\public', 'ROOTPATH\\public', '20221213')
+ 2 APPPATH\Controllers\DatapemasukanController.php(26): App\Models\PemasukanKasModel->checkDateFormat('20221213')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 13:28:00 --> checkdate(): Argument #3 ($year) must be of type int, string given
+in APPPATH\Models\PemasukanKasModel.php on line 34.
+ 1 APPPATH\Models\PemasukanKasModel.php(34): checkdate(0, 0, 'dhbjas')
+ 2 APPPATH\Controllers\DatapemasukanController.php(26): App\Models\PemasukanKasModel->checkDateFormat('dhbjas')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 13:28:36 --> checkdate(): Argument #3 ($year) must be of type int, string given
+in APPPATH\Models\PemasukanKasModel.php on line 34.
+ 1 APPPATH\Models\PemasukanKasModel.php(34): checkdate(0, 0, 'dhb00jas')
+ 2 APPPATH\Controllers\DatapemasukanController.php(26): App\Models\PemasukanKasModel->checkDateFormat('dhb00jas')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 13:46:17 --> Undefined array key "dari"
+in APPPATH\Controllers\DatapemasukanController.php on line 26.
+ 1 APPPATH\Controllers\DatapemasukanController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dari"', 'APPPATH\\Controllers\\DatapemasukanController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:30:14 --> Undefined variable $page
+in APPPATH\Views\layout\page_layout.php on line 52.
+ 1 APPPATH\Views\layout\page_layout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\layout\\page_layout.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\Admin\Pages.php(11): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:30:50 --> Call to undefined method App\Models\DatapenggunaModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapenggunaController.php(27): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:32:31 --> Call to undefined method App\Models\DatapenggunaModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapenggunaController.php(27): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:32:44 --> Call to undefined method App\Models\DatapenggunaModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapenggunaController.php(27): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:34:00 --> Call to undefined method App\Models\DatapenggunaModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\DatapenggunaController.php(27): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:59:30 --> Undefined property: App\Controllers\DatapemasukanController::$DatapenggunaModel
+in APPPATH\Controllers\DatapemasukanController.php on line 108.
+ 1 APPPATH\Controllers\DatapemasukanController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$DatapenggunaModel', 'APPPATH\\Controllers\\DatapemasukanController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 19:30:36 --> Undefined variable $pemasukan_kas
+in APPPATH\Views\pages\admin\kas\list.php on line 78.
+ 1 APPPATH\Views\pages\admin\kas\list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemasukan_kas', 'APPPATH\\Views\\pages\\admin\\kas\\list.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\kas\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 19:31:55 --> Undefined variable $jumlah_pemasukan
+in APPPATH\Views\pages\admin\kas\list.php on line 99.
+ 1 APPPATH\Views\pages\admin\kas\list.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah_pemasukan', 'APPPATH\\Views\\pages\\admin\\kas\\list.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\kas\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 5 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 19:32:59 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Views\pages\admin\kas\list.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Views\\pages\\admin\\kas\\list.php', 99)
+ 2 APPPATH\Views\pages\admin\kas\list.php(99): number_format(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\kas\\list.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 6 APPPATH\Controllers\DatapengeluaranController.php(40): view('pages/admin/kas/list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapengeluaranController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapengeluaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 19:54:00 --> Undefined property: App\Controllers\HalamanAdminController::$pengeluaran
+in APPPATH\Controllers\HalamanAdminController.php on line 27.
+ 1 APPPATH\Controllers\HalamanAdminController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\HalamanAdminController::$pengeluaran', 'APPPATH\\Controllers\\HalamanAdminController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->rekap()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:10:11 --> Undefined variable $page
+in APPPATH\Views\layout\page_layout.php on line 52.
+ 1 APPPATH\Views\layout\page_layout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\layout\\page_layout.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\Admin\Pages.php(11): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:18:15 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:18:33 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapengeluaranController.php(40): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapengeluaranController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:18:49 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapengeluaranController.php(40): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapengeluaranController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:19:04 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapengeluaranController.php(40): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapengeluaranController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:19:27 --> Invalid file: pages/admin/kas/form.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/form.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/form', [], true)
+ 3 APPPATH\Controllers\DatapengeluaranController.php(67): view('pages/admin/kas/form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapengeluaranController->new()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:20:42 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:22:41 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:23:24 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:24:08 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:24:33 --> Invalid file: pages/admin/kas/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/list.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/list', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:24:51 --> Invalid file: pages/admin/kas/form.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/form.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/form', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(68): view('pages/admin/kas/form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->new()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:25:05 --> Invalid file: pages/admin/kas/form.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/form.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/form', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(68): view('pages/admin/kas/form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->new()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:25:16 --> Invalid file: pages/admin/kas/oke.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/kas/oke.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/oke', [], true)
+ 3 APPPATH\Controllers\DatapemasukanController.php(41): view('pages/admin/kas/oke', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 20:35:26 --> Undefined variable $dr
+in APPPATH\Views\pages\admin\kas\rekap.php on line 4.
+ 1 APPPATH\Views\pages\admin\kas\rekap.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dr', 'APPPATH\\Views\\pages\\admin\\kas\\rekap.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\kas\\rekap.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/kas/rekap', [], true)
+ 5 APPPATH\Controllers\HalamanAdminController.php(47): view('pages/admin/kas/rekap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->rekap()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 23:52:37 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\HalamanAdminController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->export()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 23:57:38 --> Class "PhpOffice\phpSpreadsheet\src\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\HalamanAdminController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->export()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

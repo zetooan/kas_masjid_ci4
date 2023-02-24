@@ -1,0 +1,50 @@
+CRITICAL - 2022-11-24 00:00:14 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\HalamanAdminController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->export()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 00:02:34 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\HalamanAdminController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->export()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 01:26:18 --> Class "App\PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\HalamanAdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->export()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 01:55:30 --> Undefined variable $filename
+in APPPATH\Controllers\HalamanAdminController.php on line 63.
+ 1 APPPATH\Controllers\HalamanAdminController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'APPPATH\\Controllers\\HalamanAdminController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->export()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 01:55:39 --> Undefined variable $filename
+in APPPATH\Controllers\HalamanAdminController.php on line 63.
+ 1 APPPATH\Controllers\HalamanAdminController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'APPPATH\\Controllers\\HalamanAdminController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->export()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 19:21:11 --> Undefined variable $page
+in APPPATH\Views\layout\page_layout.php on line 52.
+ 1 APPPATH\Views\layout\page_layout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\layout\\page_layout.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\Admin\Pages.php(11): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

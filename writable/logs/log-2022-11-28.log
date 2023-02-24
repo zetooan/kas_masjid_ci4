@@ -1,0 +1,375 @@
+CRITICAL - 2022-11-28 02:13:58 --> Undefined property: stdClass::$role
+in APPPATH\Views\pages\admin\pengguna\list.php on line 74.
+ 1 APPPATH\Views\pages\admin\pengguna\list.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Views\\pages\\admin\\pengguna\\list.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pengguna\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pengguna/list', [], true)
+ 5 APPPATH\Controllers\DatapenggunaController.php(31): view('pages/admin/pengguna/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:14:45 --> Undefined property: App\Controllers\DatapenggunaController::$sebagai
+in APPPATH\Controllers\DatapenggunaController.php on line 54.
+ 1 APPPATH\Controllers\DatapenggunaController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapenggunaController::$sebagai', 'APPPATH\\Controllers\\DatapenggunaController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->new()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:16:08 --> Class "App\Controllers\HakAksesModel" not found
+in APPPATH\Controllers\DatapenggunaController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\DatapenggunaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:17:02 --> Array to string conversion
+in APPPATH\Views\pages\admin\pengguna\form.php on line 43.
+ 1 APPPATH\Views\pages\admin\pengguna\form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\admin\\pengguna\\form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pengguna\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pengguna/form', [], true)
+ 5 APPPATH\Controllers\DatapenggunaController.php(60): view('pages/admin/pengguna/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->new()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:19:12 --> Attempt to read property "id" on array
+in APPPATH\Views\pages\admin\pengguna\form.php on line 43.
+ 1 APPPATH\Views\pages\admin\pengguna\form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\pages\\admin\\pengguna\\form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pengguna\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/pengguna/form', [], true)
+ 5 APPPATH\Controllers\DatapenggunaController.php(60): view('pages/admin/pengguna/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapenggunaController->new()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:29:16 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 478.
+ 1 APPPATH\Controllers\LoginController.php(38): CodeIgniter\Session\Session->set(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:29:58 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 478.
+ 1 APPPATH\Controllers\LoginController.php(38): CodeIgniter\Session\Session->set(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:30:14 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 478.
+ 1 APPPATH\Controllers\LoginController.php(38): CodeIgniter\Session\Session->set(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:32:35 --> Too few arguments to function CodeIgniter\Session\Session::has(), 0 passed in C:\ci\ci_tgs1_21330034\app\Controllers\LoginController.php on line 42 and exactly 1 expected
+in SYSTEMPATH\Session\Session.php on line 527.
+ 1 APPPATH\Controllers\LoginController.php(42): CodeIgniter\Session\Session->has()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:32:46 --> Too few arguments to function CodeIgniter\Session\Session::has(), 0 passed in C:\ci\ci_tgs1_21330034\app\Controllers\LoginController.php on line 42 and exactly 1 expected
+in SYSTEMPATH\Session\Session.php on line 527.
+ 1 APPPATH\Controllers\LoginController.php(42): CodeIgniter\Session\Session->has()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:36:28 --> Too few arguments to function CodeIgniter\Session\Session::has(), 0 passed in C:\ci\ci_tgs1_21330034\app\Controllers\LoginController.php on line 42 and exactly 1 expected
+in SYSTEMPATH\Session\Session.php on line 527.
+ 1 APPPATH\Controllers\LoginController.php(42): CodeIgniter\Session\Session->has()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 02:38:43 --> Call to undefined method App\Controllers\LoginController::session()
+in APPPATH\Controllers\LoginController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 03:00:41 --> Undefined variable $page
+in APPPATH\Views\layout\page_layout.php on line 52.
+ 1 APPPATH\Views\layout\page_layout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\layout\\page_layout.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\Admin\Pages.php(11): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:10:12 --> Undefined variable $page
+in APPPATH\Views\layout\page_layout.php on line 52.
+ 1 APPPATH\Views\layout\page_layout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\layout\\page_layout.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\Admin\Pages.php(11): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-28 06:12:44 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_spsm' in D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'db_spsm', 3306, '', 0)
+#1 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\kas_mesjid\app\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\LoginController->login()
+#8 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\kas_mesjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_spsm' in D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\kas_mesjid\app\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\LoginController->login()
+#7 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\kas_mesjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2022-11-28 06:12:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_spsm'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_datapengguna`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-28 06:13:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'db_kas', 3306, '', 0)
+#1 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\kas_mesjid\app\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\LoginController->login()
+#8 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\kas_mesjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\kas_mesjid\app\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\LoginController->login()
+#7 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\kas_mesjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2022-11-28 06:13:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_datapengguna`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-28 06:13:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'db_kas', 3306, '', 0)
+#1 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\kas_mesjid\app\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\LoginController->login()
+#8 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\kas_mesjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\kas_mesjid\app\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\LoginController->login()
+#7 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\kas_mesjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\kas_mesjid\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2022-11-28 06:13:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_datapengguna`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:16:23 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 36.
+ 1 APPPATH\Controllers\DatapemasukanController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:16:34 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 36.
+ 1 APPPATH\Controllers\DatapemasukanController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:29:57 --> Undefined array key "name"
+in APPPATH\Views\layout\header.php on line 30.
+ 1 APPPATH\Views\layout\header.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\layout\\header.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\layout\page_layout.php(47): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 9 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/admin/beranda', [], true)
+10 APPPATH\Controllers\HalamanAdminController.php(29): view('pages/admin/beranda', [...])
+11 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HalamanAdminController->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanAdminController))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:43:16 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 143.
+ 1 APPPATH\Controllers\DatapemasukanController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:44:50 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 143.
+ 1 APPPATH\Controllers\DatapemasukanController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:44:52 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 143.
+ 1 APPPATH\Controllers\DatapemasukanController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:45:05 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 143.
+ 1 APPPATH\Controllers\DatapemasukanController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:45:21 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 143.
+ 1 APPPATH\Controllers\DatapemasukanController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:45:48 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 142.
+ 1 APPPATH\Controllers\DatapemasukanController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:45:55 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 142.
+ 1 APPPATH\Controllers\DatapemasukanController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:46:18 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 142.
+ 1 APPPATH\Controllers\DatapemasukanController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 06:46:24 --> Undefined property: App\Controllers\DatapemasukanController::$sebagai
+in APPPATH\Controllers\DatapemasukanController.php on line 142.
+ 1 APPPATH\Controllers\DatapemasukanController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatapemasukanController::$sebagai', 'APPPATH\\Controllers\\DatapemasukanController.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\DatapemasukanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatapemasukanController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,12 @@
+CRITICAL - 2022-12-03 04:05:45 --> Undefined variable $akhir
+in APPPATH\Views\pages\user\home.php on line 83.
+ 1 APPPATH\Views\pages\user\home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akhir', 'APPPATH\\Views\\pages\\user\\home.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/home', [], true)
+ 5 APPPATH\Controllers\HomeController.php(46): view('pages/user/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

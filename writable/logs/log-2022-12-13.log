@@ -1,0 +1,239 @@
+ERROR - 2022-12-13 23:45:05 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-13 23:45:05 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-13 23:45:52 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-13 23:45:52 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-13 23:46:09 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-13 23:46:09 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-13 23:46:29 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-13 23:46:29 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-13 23:47:02 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-13 23:47:02 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-13 23:47:05 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-13 23:47:05 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-13 23:47:49 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-13 23:47:49 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `penulis`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(42): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 23:54:34 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$gambar
+in APPPATH\Controllers\ArtikelController.php on line 232.
+ 1 APPPATH\Controllers\ArtikelController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$gambar', 'APPPATH\\Controllers\\ArtikelController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->delete('9')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

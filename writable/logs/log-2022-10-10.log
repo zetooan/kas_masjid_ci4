@@ -1,0 +1,30 @@
+CRITICAL - 2022-10-10 22:20:41 --> Invalid file: pages/layout/page_layout.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/layout/page_layout.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/layout/page_layout.php', [], true)
+ 3 APPPATH\Controllers\User\Pages.php(11): view('pages/layout/page_layout.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\User\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-10 23:21:24 --> Invalid file: pages/>datapengguna.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/>datapengguna.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/>datapengguna.php', [], true)
+ 3 APPPATH\Controllers\User\Pages.php(16): view('pages/>datapengguna.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\User\Pages->datapengguna()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-10 23:21:27 --> Invalid file: pages/>datapengguna.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/>datapengguna.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pages/>datapengguna.php', [], true)
+ 3 APPPATH\Controllers\User\Pages.php(16): view('pages/>datapengguna.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\User\Pages->datapengguna()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

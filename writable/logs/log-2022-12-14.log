@@ -1,0 +1,1023 @@
+CRITICAL - 2022-12-14 00:01:34 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:03:04 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:03:36 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:04:47 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:05:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:05:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:08:31 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:09:15 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:09:20 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:10:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\ArtikelController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:32:21 --> Undefined constant "dat"
+in APPPATH\Views\pages\admin\artikel\list.php on line 73.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/artikel/list', [], true)
+ 4 APPPATH\Controllers\ArtikelController.php(33): view('pages/admin/artikel/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:40:31 --> Call to undefined method App\Models\KegiatanModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\HomeController.php(42): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:40:39 --> Call to undefined method App\Models\KegiatanModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\HomeController.php(42): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:40:54 --> Call to undefined method App\Models\KegiatanModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\HomeController.php(42): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:41:18 --> Call to undefined method App\Models\KegiatanModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\HomeController.php(42): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:41:19 --> Call to undefined method App\Models\KegiatanModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\HomeController.php(42): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:41:20 --> Call to undefined method App\Models\KegiatanModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\HomeController.php(42): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:41:20 --> Call to undefined method App\Models\KegiatanModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\HomeController.php(42): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 00:44:10 --> Object of class App\Controllers\HomeController could not be converted to string
+in APPPATH\Controllers\HomeController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 00:44:50 --> mysqli_sql_exception: Column 'created_at' in field list is ambiguous in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nama`, ...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(45): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 00:44:50 --> Column 'created_at' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nama`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, `judul`, `gambar`, `konten`, `created_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(45): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 01:02:10 --> Too few arguments to function App\Controllers\HomeController::post(), 0 passed in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\HomeController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 01:02:52 --> syntax error, unexpected integer "1", expecting variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 01:05:47 --> mysqli_sql_exception: Unknown column '31m' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\projek final ci\kas_masjid1\app\Controllers\HomeController.php(80): CodeIgniter\BaseModel->find()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->post('31m')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 01:05:47 --> Unknown column '31m' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`id`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = 31m', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`id`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = 31m')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`id`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = 31m')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`id`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = 31m', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\HomeController.php(80): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post('31m')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 01:18:53 --> Undefined variable $data
+in APPPATH\Views\pages\user\post.php on line 9.
+ 1 APPPATH\Views\pages\user\post.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\user\\post.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/post', [], true)
+ 5 APPPATH\Controllers\HomeController.php(82): view('pages/user/post')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post('31')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 01:22:45 --> Undefined variable $data
+in APPPATH\Views\pages\user\post.php on line 38.
+ 1 APPPATH\Views\pages\user\post.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\user\\post.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/post', [], true)
+ 5 APPPATH\Controllers\HomeController.php(82): view('pages/user/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post('31')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 01:23:00 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\pages\user\post.php on line 38.
+ 1 APPPATH\Views\pages\user\post.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\pages\\user\\post.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/post', [], true)
+ 5 APPPATH\Controllers\HomeController.php(82): view('pages/user/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post('31')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 01:41:30 --> Attempt to read property "gambar" on array
+in APPPATH\Views\pages\user\blog.php on line 41.
+ 1 APPPATH\Views\pages\user\blog.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "gambar" on array', 'APPPATH\\Views\\pages\\user\\blog.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/blog', [], true)
+ 5 APPPATH\Controllers\HomeController.php(70): view('pages/user/blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 01:57:15 --> Unsupported operand types: string + string
+in APPPATH\Views\pages\user\blog.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/blog', [], true)
+ 4 APPPATH\Controllers\HomeController.php(70): view('pages/user/blog', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->blog()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 02:24:02 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\pages\user\post.php(189): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/post', [], true)
+ 5 APPPATH\Controllers\HomeController.php(88): view('pages/user/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post('31')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 02:31:59 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\HomeController.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-14 02:32:28 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\HomeController.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-14 02:34:13 --> Too few arguments to function App\Controllers\HomeController::post(), 0 passed in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\HomeController.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 02:34:31 --> Undefined variable $id
+in APPPATH\Controllers\HomeController.php on line 80.
+ 1 APPPATH\Controllers\HomeController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\HomeController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->post()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 03:12:25 --> Unclosed '{' on line 106
+in APPPATH\Views\layout\template.php on line 231.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/home', [], true)
+ 4 APPPATH\Controllers\HomeController.php(50): view('pages/user/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 03:12:37 --> Unclosed '{' on line 106
+in APPPATH\Views\layout\template.php on line 231.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/home', [], true)
+ 4 APPPATH\Controllers\HomeController.php(50): view('pages/user/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 03:13:41 --> Unclosed '{' on line 106
+in APPPATH\Views\layout\template.php on line 230.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/home', [], true)
+ 4 APPPATH\Controllers\HomeController.php(50): view('pages/user/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 03:34:00 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ArtikelController.php(121): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\assets\\images')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 03:36:25 --> Call to a member function getName() on string
+in APPPATH\Controllers\ArtikelController.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 03:56:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\admin\artikel\form.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/artikel/form', [], true)
+ 4 APPPATH\Controllers\ArtikelController.php(164): view('pages/admin/artikel/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->edit('33')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:04:59 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$gambar
+in APPPATH\Controllers\ArtikelController.php on line 226.
+ 1 APPPATH\Controllers\ArtikelController.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$gambar', 'APPPATH\\Controllers\\ArtikelController.php', 226)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->delete('34')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:08:07 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\ArtikelController.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ArtikelController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ArtikelController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ArtikelController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ArtikelController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:08:17 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\ArtikelController.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ArtikelController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ArtikelController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ArtikelController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ArtikelController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:14:38 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\admin\artikel\preview.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/artikel/preview', [], true)
+ 4 APPPATH\Controllers\ArtikelController.php(61): view('pages/admin/artikel/preview', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('35', 'show')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:15:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\admin\artikel\preview.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/artikel/preview', [], true)
+ 4 APPPATH\Controllers\ArtikelController.php(61): view('pages/admin/artikel/preview', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('35', 'show')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 04:17:05 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('35', 'show')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 04:17:05 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `id` = 35
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `id` = 35
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `id` = 35
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `id` = 35
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('35', 'show')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:17:26 --> Undefined property: stdClass::$konten
+in APPPATH\Views\pages\admin\artikel\preview.php on line 27.
+ 1 APPPATH\Views\pages\admin\artikel\preview.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$konten', 'APPPATH\\Views\\pages\\admin\\artikel\\preview.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\artikel\\preview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/artikel/preview', [], true)
+ 5 APPPATH\Controllers\ArtikelController.php(63): view('pages/admin/artikel/preview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('35', 'show')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 04:19:26 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 04:19:26 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:20:19 --> Undefined variable $upload
+in APPPATH\Controllers\ArtikelController.php on line 206.
+ 1 APPPATH\Controllers\ArtikelController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $upload', 'APPPATH\\Controllers\\ArtikelController.php', 206)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->update('36')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 04:21:24 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 04:21:24 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 04:21:50 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 04:21:50 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 04:24:58 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 04:24:58 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:25:04 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ArtikelController.php(128): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\assets\\images')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:27:04 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$getName
+in APPPATH\Controllers\ArtikelController.php on line 127.
+ 1 APPPATH\Controllers\ArtikelController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\Files\\UploadedFile::$getName', 'APPPATH\\Controllers\\ArtikelController.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 04:27:45 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 04:27:45 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:31:24 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$gambar
+in APPPATH\Controllers\ArtikelController.php on line 230.
+ 1 APPPATH\Controllers\ArtikelController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$gambar', 'APPPATH\\Controllers\\ArtikelController.php', 230)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->delete('39')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:33:43 --> Undefined variable $upload
+in APPPATH\Controllers\ArtikelController.php on line 206.
+ 1 APPPATH\Controllers\ArtikelController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $upload', 'APPPATH\\Controllers\\ArtikelController.php', 206)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->update('37')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:47:22 --> Undefined variable $data
+in APPPATH\Controllers\ArtikelController.php on line 216.
+ 1 APPPATH\Controllers\ArtikelController.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\ArtikelController.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->update('42')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:48:19 --> unlink(): http does not allow unlinking
+in APPPATH\Controllers\ArtikelController.php on line 217.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH\\Controllers\\ArtikelController.php', 217)
+ 2 APPPATH\Controllers\ArtikelController.php(217): unlink('http://localhost:8080/public/assets/images/1php_2.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->update('42')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 04:48:53 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 04:48:53 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:49:38 --> unlink(): http does not allow unlinking
+in APPPATH\Controllers\ArtikelController.php on line 217.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH\\Controllers\\ArtikelController.php', 217)
+ 2 APPPATH\Controllers\ArtikelController.php(217): unlink('http://localhost:8080/public/assets/images/1php_4.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->update('44')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:52:00 --> unlink(): http does not allow unlinking
+in APPPATH\Controllers\ArtikelController.php on line 217.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH\\Controllers\\ArtikelController.php', 217)
+ 2 APPPATH\Controllers\ArtikelController.php(217): unlink('http://localhost:8080/assets/images/1php_4.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->update('44')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 04:52:03 --> unlink(): http does not allow unlinking
+in APPPATH\Controllers\ArtikelController.php on line 217.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH\\Controllers\\ArtikelController.php', 217)
+ 2 APPPATH\Controllers\ArtikelController.php(217): unlink('http://localhost:8080/assets/images/1php_4.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->update('44')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 05:24:43 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 05:24:43 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 05:43:02 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\projek final ci\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projek final ci\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\projek final ci\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\projek final...')
+#12 {main}
+CRITICAL - 2022-12-14 05:43:02 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 19:52:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_kas', 3306, '', 0)
+#1 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#4 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 E:\laragon\www\kas_masjid1\app\Controllers\HomeController.php(34): CodeIgniter\BaseModel->find()
+#7 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#8 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#3 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#5 E:\laragon\www\kas_masjid1\app\Controllers\HomeController.php(34): CodeIgniter\BaseModel->find()
+#6 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\HomeController->home()
+#7 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#8 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2022-12-14 19:52:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `tb_pemasukan`', [], false)
+ 3 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\HomeController.php(34): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

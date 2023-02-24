@@ -1,0 +1,44 @@
+ERROR - 2022-10-12 01:06:02 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_spsm' in F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'db_spsm', 3306, '', 0)
+#1 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Project\ci_tgs1_21330034\app\Controllers\User\Datapresensi.php(21): CodeIgniter\BaseModel->findAll()
+#7 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\User\Datapresensi->index()
+#8 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Datapresensi))
+#9 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Project\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('F:\\Project\\ci_t...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_spsm' in F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\Project\ci_tgs1_21330034\app\Controllers\User\Datapresensi.php(21): CodeIgniter\BaseModel->findAll()
+#6 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\User\Datapresensi->index()
+#7 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Datapresensi))
+#8 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\Project\ci_tgs1_21330034\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\Project\ci_tgs1_21330034\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('F:\\Project\\ci_t...')
+#11 {main}
+CRITICAL - 2022-10-12 01:06:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_spsm'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_datapresensi`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\User\Datapresensi.php(21): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\User\Datapresensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Datapresensi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

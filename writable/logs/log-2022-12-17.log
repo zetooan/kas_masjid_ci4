@@ -1,0 +1,11 @@
+CRITICAL - 2022-12-17 21:55:21 --> file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+in APPPATH\Controllers\HomeController.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed', 'APPPATH\\Controllers\\HomeController.php', 39)
+ 2 APPPATH\Controllers\HomeController.php(39): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/1504/2022/12/17')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,799 @@
+CRITICAL - 2022-12-16 05:11:23 --> Undefined property: App\Controllers\HomeController::$SettingModel
+in APPPATH\Controllers\HomeController.php on line 37.
+ 1 APPPATH\Controllers\HomeController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\HomeController::$SettingModel', 'APPPATH\\Controllers\\HomeController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:12:31 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:14:14 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:14:31 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:14:44 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 28.
+ 1 APPPATH\Controllers\SettingController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:15:41 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 28.
+ 1 APPPATH\Controllers\SettingController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:23:15 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 43.
+ 1 APPPATH\Views\pages\admin\setting\form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(29): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:24:07 --> Undefined variable $ViewSetting
+in APPPATH\Views\pages\admin\setting\form.php on line 43.
+ 1 APPPATH\Views\pages\admin\setting\form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ViewSetting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(29): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-16 05:31:42 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in G:\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\kas_masjid1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_data...', 0)
+#1 G:\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_data...')
+#2 G:\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_data...')
+#3 G:\kas_masjid1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_data...', Array, false)
+#4 G:\kas_masjid1\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\kas_masjid1\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 G:\kas_masjid1\app\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+#7 G:\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\ArtikelController->show('assets', 'img', 'logo.png')
+#8 G:\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+#9 G:\kas_masjid1\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\kas_masjid1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 G:\kas_masjid1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('G:\\kas_masjid1\\...')
+#12 {main}
+CRITICAL - 2022-12-16 05:31:42 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tb_datapengguna`.`nama`, `tb_artikel`.`gambar`, `tb_artikel`.`judul`, `tb_artikel`.`updated_at`, `tb_artikel`.`konten`
+FROM `tb_artikel`
+JOIN `tb_datapengguna` ON `tb_artikel`.`penulis`  = `tb_datapengguna`.`id`
+WHERE `tb_artikel`.`id` = assets
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ArtikelController.php(61): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ArtikelController->show('FCPATH\\assets', 'img', 'logo.png')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtikelController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:38:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:48:35 --> Undefined variable $setting
+in APPPATH\Controllers\HomeController.php on line 37.
+ 1 APPPATH\Controllers\HomeController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Controllers\\HomeController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:50:14 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:51:04 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:58:40 --> Undefined variable $setting
+in APPPATH\Controllers\SettingController.php on line 26.
+ 1 APPPATH\Controllers\SettingController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Controllers\\SettingController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 05:59:18 --> Undefined variable $kota
+in APPPATH\Controllers\SettingController.php on line 32.
+ 1 APPPATH\Controllers\SettingController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kota', 'APPPATH\\Controllers\\SettingController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:10:00 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 30.
+ 1 APPPATH\Controllers\SettingController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:15:32 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(32): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:15:46 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(32): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:17:31 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(32): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:20:16 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 27.
+ 1 APPPATH\Controllers\SettingController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:22:29 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 27.
+ 1 APPPATH\Controllers\SettingController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:23:05 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 27.
+ 1 APPPATH\Controllers\SettingController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:23:27 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 42.
+ 1 APPPATH\Views\pages\admin\setting\form.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(34): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:32:49 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 27.
+ 1 APPPATH\Controllers\SettingController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:33:24 --> Undefined variable $setting
+in APPPATH\Controllers\SettingController.php on line 32.
+ 1 APPPATH\Controllers\SettingController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Controllers\\SettingController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:34:01 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 42.
+ 1 APPPATH\Views\pages\admin\setting\form.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(34): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:34:28 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:37:03 --> Undefined variable $kota
+in APPPATH\Controllers\HomeController.php on line 58.
+ 1 APPPATH\Controllers\HomeController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kota', 'APPPATH\\Controllers\\HomeController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:37:15 --> Undefined array key "data"
+in APPPATH\Views\pages\user\home.php on line 308.
+ 1 APPPATH\Views\pages\user\home.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'APPPATH\\Views\\pages\\user\\home.php', 308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/home', [], true)
+ 5 APPPATH\Controllers\HomeController.php(62): view('pages/user/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:38:16 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:38:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:39:03 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:40:40 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:41:04 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 06:43:26 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:26:05 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:26:55 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:27:48 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:48:40 --> Undefined variable $nama_masjid
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_masjid', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(34): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:49:05 --> Undefined variable $nama_masjid
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_masjid', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(34): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:49:54 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(34): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:53:21 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SettingController.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SettingController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SettingController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SettingController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\SettingController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:53:23 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SettingController.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SettingController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SettingController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SettingController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\SettingController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:53:37 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 28.
+ 1 APPPATH\Controllers\SettingController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:54:32 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 28.
+ 1 APPPATH\Controllers\SettingController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:55:57 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 30.
+ 1 APPPATH\Controllers\SettingController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:56:35 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SettingController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SettingController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SettingController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SettingController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\SettingController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 10:56:50 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 34.
+ 1 APPPATH\Controllers\SettingController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 11:07:34 --> Class "App\Controllers\SettingModel" not found
+in APPPATH\Controllers\SettingController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\SettingController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 11:08:25 --> syntax error, unexpected token "use", expecting "," or ";"
+in APPPATH\Controllers\SettingController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SettingController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SettingController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SettingController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\SettingController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 11:08:35 --> Undefined property: App\Controllers\SettingController::$SettingModel
+in APPPATH\Controllers\SettingController.php on line 34.
+ 1 APPPATH\Controllers\SettingController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettingModel', 'APPPATH\\Controllers\\SettingController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 11:17:50 --> Undefined array key "lokasi"
+in APPPATH\Views\pages\admin\setting\form.php on line 30.
+ 1 APPPATH\Views\pages\admin\setting\form.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi"', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(35): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 12:48:54 --> Cannot access offset of type string on string
+in APPPATH\Controllers\HomeController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:14:40 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 462.
+ 1 SYSTEMPATH\Router\Router.php(462): explode('::', [...])
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('setting/update')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('setting/update')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:17:05 --> Undefined property: App\Controllers\SettingController::$SettinfModel
+in APPPATH\Controllers\SettingController.php on line 66.
+ 1 APPPATH\Controllers\SettingController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SettingController::$SettinfModel', 'APPPATH\\Controllers\\SettingController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->UpdateSetting()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:18:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SettingController.php(66): CodeIgniter\Model->__call('UpdateSetting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->UpdateSetting()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:20:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SettingController.php(67): CodeIgniter\Model->__call('UpdateSetting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->UpdateSetting()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:32:45 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(69): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->UpdateSetting()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:35:59 --> Undefined variable $setting
+in APPPATH\Views\pages\admin\setting\form.php on line 10.
+ 1 APPPATH\Views\pages\admin\setting\form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\pages\\admin\\setting\\form.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\setting\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/admin/setting/form', [], true)
+ 5 APPPATH\Controllers\SettingController.php(69): view('pages/admin/setting/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->UpdateSetting()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:45:37 --> Invalid file: setting.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 3 APPPATH\Controllers\SettingController.php(68): view('setting')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\SettingController->UpdateSetting()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 13:59:06 --> Undefined array key "data"
+in APPPATH\Views\pages\user\home.php on line 308.
+ 1 APPPATH\Views\pages\user\home.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'APPPATH\\Views\\pages\\user\\home.php', 308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\user\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/home', [], true)
+ 5 APPPATH\Controllers\HomeController.php(60): view('pages/user/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:19:45 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/kontak', [], true)
+ 6 APPPATH\Controllers\HomeController.php(85): view('pages/user/kontak')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->kontak()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:20:00 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/kontak', [], true)
+ 6 APPPATH\Controllers\HomeController.php(85): view('pages/user/kontak')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->kontak()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:20:16 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/kontak', [], true)
+ 6 APPPATH\Controllers\HomeController.php(85): view('pages/user/kontak')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->kontak()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:20:38 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(64): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:20:47 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/blog', [], true)
+ 6 APPPATH\Controllers\HomeController.php(80): view('pages/user/blog', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:21:47 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(64): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:23:44 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(65): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:23:59 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/manajemen', [], true)
+ 6 APPPATH\Controllers\HomeController.php(71): view('pages/user/manajemen')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->manajemen()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:28:12 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(65): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:36:19 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(69): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:36:23 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(69): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:36:24 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(69): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:37:54 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(69): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:39:43 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(65): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:39:44 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(65): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 14:42:29 --> Undefined variable $setting
+in APPPATH\Views\layout\template.php on line 47.
+ 1 APPPATH\Views\layout\template.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\layout\\template.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 6 APPPATH\Controllers\HomeController.php(65): view('pages/user/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-16 19:40:52 --> file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. 
+in APPPATH\Controllers\HomeController.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. ', 'APPPATH\\Controllers\\HomeController.php', 39)
+ 2 APPPATH\Controllers\HomeController.php(39): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/1504/2022/12/16')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\HomeController->home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

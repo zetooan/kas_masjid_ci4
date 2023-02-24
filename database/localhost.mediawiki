@@ -1,0 +1,3147 @@
+
+<!--
+Table data for `tb_artikel`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_artikel'''
+|-
+ ! id
+ ! judul
+ ! penulis
+ ! konten
+|-
+ | 7
+ | IOT
+ | agung
+ | membuat tempat sampah dengan menggunakan modul esp32
+|-
+ | 19
+ | matematika
+ | agung
+ | berhitung 1-3
+|}
+
+
+<!--
+Table data for `tb_profil`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_profil'''
+|-
+ ! id
+ ! nik
+ ! nama
+ ! email
+ ! ttl
+ ! jenkel
+ ! alamat
+ ! foto
+|-
+ | 24
+ | 123134
+ | nuridza
+ | nuridza@gmai.com
+ | 2022-11-02
+ | Laki-laki
+ | tempel
+ | profil2.jpg
+|}
+
+
+<!--
+Table data for `tb_artikel`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_artikel'''
+|-
+ ! id
+ ! penulis
+ ! judul
+ ! gambar
+ ! konten
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `tb_datapengguna`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_datapengguna'''
+|-
+ ! id
+ ! nama
+ ! username
+ ! email
+ ! password
+ ! role
+ ! profil
+ ! created_at
+ ! updated_at
+|-
+ | 7912
+ | seto
+ | zeto
+ | saj@sj.a
+ | $2y$10$uXDfoBwjdbdriMXXCeI6AegZFicGbvStm3oSWAJ0e3KAskb3cTW/i
+ | 1
+ | 
+ | 2022-11-25 14:18:14
+ | 2022-11-28 06:33:42
+|-
+ | 7915
+ | admin
+ | admin
+ | admin@adm.adm
+ | $2y$10$irhCpSBa3s9uRToKJsPbJeY2C9r/V9vM/uk6XH2LbB3zs8i2fo/R.
+ | 3
+ | 
+ | 2022-11-28 02:27:29
+ | 2022-11-28 06:32:50
+|-
+ | 7917
+ | Ridho Gilang B
+ | ridho
+ | ridho@gmail.com
+ | $2y$10$FKIYQvaYT70P6zxvxtBk9eyW0WglhipKbbpm.nbJ37WUHNF2n5/UG
+ | 2
+ | 
+ | 2022-11-28 02:28:51
+ | 2022-11-28 06:33:27
+|-
+ | 7918
+ | Agung Budi Nuridza
+ | agung
+ | agung@gmail.com
+ | $2y$10$ozEdVogjsnB.7zKfeFWjeOnPXqTYhCGStUPNSXyelPvadOi1bMMCW
+ | 3
+ | 
+ | 2022-11-28 06:21:18
+ | 2022-11-28 06:33:10
+|}
+
+
+<!--
+Table data for `tb_hakakses`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_hakakses'''
+|-
+ ! id
+ ! akses
+|-
+ | 1
+ | anggota
+|-
+ | 2
+ | bendahara
+|-
+ | 3
+ | admin
+|}
+
+
+<!--
+Table data for `tb_kegiatan`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_kegiatan'''
+|-
+ ! id
+ ! tanggal
+ ! keterangan
+ ! pj
+ ! created_at
+ ! updated_at
+|-
+ | 7
+ | 2022-11-30
+ | kultum pagi jam 6
+ | seto
+ | 0000-00-00 00:00:00
+ | 0000-00-00 00:00:00
+|-
+ | 8
+ | 2022-11-30
+ | u
+ | uiii
+ | 0000-00-00 00:00:00
+ | 0000-00-00 00:00:00
+|-
+ | 9
+ | 2022-12-01
+ | Kajian Bersama Ust Ridho di Masjid Jam 09.00
+ | Seto
+ | 0000-00-00 00:00:00
+ | 0000-00-00 00:00:00
+|-
+ | 10
+ | 2022-12-09
+ | asd
+ | asd
+ | 2022-12-08 22:22:15
+ | 2022-12-08 22:22:15
+|}
+
+
+<!--
+Table data for `tb_pemasukan`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_pemasukan'''
+|-
+ ! id
+ ! tanggal
+ ! jumlah
+ ! ket
+ ! created_at
+ ! updated_at
+|-
+ | 1
+ | 2022-11-03
+ | 4000
+ | infaq
+ | 2022-11-18 15:07:37
+ | 2022-11-18 15:07:37
+|-
+ | 2
+ | 2022-11-04
+ | 4000
+ | infaq
+ | 2022-11-18 15:07:37
+ | 2022-11-18 15:07:37
+|-
+ | 5
+ | 2022-11-09
+ | 2000
+ | infaq
+ | 2022-11-23 14:21:38
+ | 2022-11-23 14:21:38
+|-
+ | 6
+ | 2022-11-14
+ | 5000
+ | infaq
+ | 2022-11-23 14:21:38
+ | 2022-11-23 14:21:38
+|-
+ | 10
+ | 2022-11-28
+ | 20000
+ | infaq
+ | 0000-00-00 00:00:00
+ | 0000-00-00 00:00:00
+|-
+ | 12
+ | 2022-12-16
+ | 100000
+ | infag
+ | 0000-00-00 00:00:00
+ | 0000-00-00 00:00:00
+|}
+
+
+<!--
+Table data for `tb_pengeluaran`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_pengeluaran'''
+|-
+ ! id
+ ! tanggal
+ ! jumlah
+ ! ket
+ ! created_at
+ ! updated_at
+|-
+ | 2
+ | 2022-11-08
+ | 25000
+ | Pengajian
+ | 2022-11-24 09:58:28
+ | 2022-11-24 09:58:28
+|-
+ | 4
+ | 2022-12-16
+ | 15000
+ | beliaqua
+ | 0000-00-00 00:00:00
+ | 0000-00-00 00:00:00
+|}
+
+
+<!--
+Table data for `tb_setting`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_setting'''
+|-
+ ! id
+ ! nama_masjid
+ ! id_kota
+ ! nama_kota
+ ! alamat
+|-
+ | 1
+ | Al-furqon
+ | 1504
+ | KAB. SLEMAN
+ | Sleman yogyakarta
+|}
+
+
+<!--
+Table data for `tb_buku`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_buku'''
+|-
+ ! id
+ ! id_kategori
+ ! judul
+ ! penulis
+ ! tahun_terbit
+ ! penerbit
+|-
+ | 101
+ | k1
+ | Akuntansi Pengantar 1
+ | Supardi
+ | 2009
+ | Gava Media
+|-
+ | 102
+ | k3
+ | Islam Pasar Keadilan
+ | Robert W. Hefner
+ | 2013
+ | LKiS
+|-
+ | 103
+ | k6
+ | Kolaborasi PHP 5 dan Mysql
+ | Eko Priyo Utomo
+ | 2014
+ | Andi Offset
+|-
+ | 104
+ | k5
+ | Belajar mikrokontroler
+ | Agfianto EP
+ | 2010
+ | Gava Media
+|-
+ | 105
+ | k1
+ | Aplikasi Program Akutansi dengan Visual FoxPro 9.0
+ | Peter Wanto
+ | 2008
+ | Gava Media
+|-
+ | 106
+ | k3
+ | Otoritarianisme Hukum Islam
+ | Muhammad Habibi Siregar
+ | 2014
+ | LKiS
+|}
+
+
+<!--
+Table data for `tb_kategori`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_kategori'''
+|-
+ ! id_kategori
+ ! nama
+|-
+ | k1
+ | Akuntansi
+|-
+ | k2
+ | Hukum
+|-
+ | k3
+ | Agama
+|-
+ | k4
+ | Sejarah
+|-
+ | k5
+ | IOT
+|-
+ | k6
+ | Pemrograman Web
+|-
+ | k9
+ | Biologi
+|-
+ | k10
+ | Sains 
+|}
+
+
+<!--
+Table data for `tb_user`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_user'''
+|-
+ ! id_user
+ ! username
+ ! password
+ ! level
+|-
+ | 21330033
+ | nuridza
+ | nuridza
+ | anggota
+|-
+ | 21330034
+ | agung
+ | agung
+ | admin
+|}
+
+
+<!--
+Table data for `tb_buku`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_buku'''
+|-
+ ! id
+ ! id_kategori
+ ! judul
+ ! penulis
+ ! tahun_terbit
+ ! penerbit
+|-
+ | 101
+ | k1
+ | Akuntansi Pengantar 1
+ | Supardi
+ | 2009
+ | Gava Media
+|-
+ | 102
+ | k3
+ | Islam Pasar Keadilan
+ | Robert W. Hefner
+ | 2013
+ | LKiS
+|-
+ | 103
+ | k6
+ | Kolaborasi PHP 5 dan Mysql
+ | Eko Priyo Utomo
+ | 2014
+ | Andi Offset
+|-
+ | 104
+ | k5
+ | Belajar mikrokontroler
+ | Agfianto EP
+ | 2010
+ | Gava Media
+|-
+ | 105
+ | k1
+ | Aplikasi Program Akutansi dengan Visual FoxPro 9.0
+ | Peter Wanto
+ | 2008
+ | Gava Media
+|-
+ | 106
+ | k3
+ | Otoritarianisme Hukum Islam
+ | Muhammad Habibi Siregar
+ | 2014
+ | LKiS
+|}
+
+
+<!--
+Table data for `tb_kategori`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_kategori'''
+|-
+ ! id_kategori
+ ! nama
+|-
+ | k1
+ | Akuntansi
+|-
+ | k2
+ | Hukum
+|-
+ | k3
+ | Agama
+|-
+ | k4
+ | Sejarah
+|-
+ | k5
+ | IOT
+|-
+ | k6
+ | Pemrograman Web
+|}
+
+
+<!--
+Table data for `doctors`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''doctors'''
+|-
+ ! id
+ ! name
+ ! rate
+ ! phone_number
+ ! address
+ ! created_at
+ ! updated_at
+|-
+ | DOC-1668447696
+ | Dr. Gerrald Leonardo
+ | 100000
+ | 083474972389
+ | Jalan Raya Ciracas No. 67 Rt. 89 Rw. 29, Ciracas, Jakarta Timur, DKI Jakarta
+ | 2022-11-14 17:41:36
+ | 2022-11-25 14:00:10
+|-
+ | DOC-1669384217
+ | Dr. Ari Handoko
+ | 150000
+ | 082137782970
+ | Jl. Raya Tajem
+ | 2022-11-25 13:50:17
+ | 2022-11-25 13:58:45
+|-
+ | DOC-1669384356
+ | Dr. Divyanisa Lekha Sania
+ | 200000
+ | 082373826478
+ | Jalan Kaliurang km 13 Besi, Ngaglik, Sleman, Yogyakarta
+ | 2022-11-25 13:52:36
+ | 2022-11-25 14:02:46
+|-
+ | DOC-1669384517
+ | Dr. Pramoedya Ananta Toer
+ | 250000
+ | 081279900025
+ | Jalan Inspeksi, Selokan Mataram, Babarsari, Catur tunggal
+ | 2022-11-25 13:55:17
+ | 2022-11-25 13:55:17
+|-
+ | DOC-1669384701
+ | Dr. Ika Natassa
+ | 200000
+ | 085887699231
+ | Jl. Suhartono No.6, Kotabaru, Gondokusuman, Yogyakarta
+ | 2022-11-25 13:58:21
+ | 2022-11-25 13:58:21
+|-
+ | DOC-1669385046
+ | Dr. Rowling J.K
+ | 150000
+ | 081178265392
+ | Ngabangan, Sidoluhur, Godean, Sleman, Kunden, Sidoluhur, Kec. Godean, Kabupaten Sleman, Yogyakarta
+ | 2022-11-25 14:04:06
+ | 2022-11-25 14:04:06
+|}
+
+
+<!--
+Table data for `failed_jobs`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''failed_jobs'''
+|-
+ ! id
+ ! uuid
+ ! connection
+ ! queue
+ ! payload
+ ! exception
+ ! failed_at
+|}
+
+
+<!--
+Table data for `medicines`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''medicines'''
+|-
+ ! id
+ ! kode_obat
+ ! nama_obat
+ ! harga_jual
+ ! created_at
+ ! updated_at
+|-
+ | MED-1668813494
+ | b09n5
+ | Albendazol tablet 400 mg
+ | 824
+ | 2022-11-18 16:18:14
+ | 2022-11-25 13:51:20
+|-
+ | MED-1668813523
+ | dqh3x
+ | Alopurinol tablet 100 mg
+ | 170
+ | 2022-11-18 16:18:43
+ | 2022-11-25 22:42:01
+|-
+ | MED-1668813545
+ | x8aev
+ | Alopurinol tablet 300 mg
+ | 497
+ | 2022-11-18 16:19:05
+ | 2022-11-25 13:51:55
+|-
+ | MED-1668813567
+ | ub3xs
+ | Alprazolam tablet 0,25 mg
+ | 650
+ | 2022-11-18 16:19:27
+ | 2022-11-25 22:41:48
+|-
+ | MED-1668813588
+ | 5zmmx
+ | Alprazolam tablet 0,5 mg
+ | 1185
+ | 2022-11-18 16:19:48
+ | 2022-11-25 22:42:44
+|-
+ | MED-1668813610
+ | 7hmtv
+ | Alprazolam tablet 1 mg
+ | 1823
+ | 2022-11-18 16:20:10
+ | 2022-11-25 22:42:13
+|-
+ | MED-1668813626
+ | tcxc4
+ | Ambroxol sirup 15 mg/ml
+ | 6683
+ | 2022-11-18 16:20:26
+ | 2022-11-25 13:52:17
+|-
+ | MED-1668813644
+ | 97mrs
+ | Ambroxol tablet 30 mg
+ | 160
+ | 2022-11-18 16:20:44
+ | 2022-11-25 22:43:50
+|-
+ | MED-1668813742
+ | x0xse
+ | Aminofilin tablet 150 mg
+ | 89
+ | 2022-11-18 16:22:22
+ | 2022-11-25 22:43:18
+|-
+ | MED-1668813867
+ | jbyak
+ | Aminofilin tablet 200 mg
+ | 150
+ | 2022-11-18 16:24:27
+ | 2022-11-25 22:43:28
+|-
+ | MED-1668826633
+ | eeqny
+ | Amlodipin tablet 5 mg
+ | 1944
+ | 2022-11-18 19:57:13
+ | 2022-11-25 13:54:22
+|-
+ | MED-1668826656
+ | wjwtv
+ | Amlodipin tablet 10 mg
+ | 3429
+ | 2022-11-18 19:57:36
+ | 2022-11-25 13:54:34
+|-
+ | MED-1668826700
+ | 4nrum
+ | Amoksisilin kapsul 250 mg
+ | 582
+ | 2022-11-18 19:58:20
+ | 2022-11-25 13:54:44
+|-
+ | MED-1668826729
+ | eb19b
+ | Amoksisilin kaplet 500 mg
+ | 750
+ | 2022-11-18 19:58:49
+ | 2022-11-25 13:54:54
+|-
+ | MED-1668826783
+ | mrc2t
+ | Ampisilin kaplet 250 mg
+ | 545
+ | 2022-11-18 19:59:43
+ | 2022-11-25 13:55:18
+|-
+ | MED-1668826808
+ | 3raax
+ | Ampisilin kaplet 500 mg
+ | 772
+ | 2022-11-18 20:00:08
+ | 2022-11-25 13:55:29
+|-
+ | MED-1668826921
+ | as3aa
+ | Asam Folat tablet 1 mg
+ | 138
+ | 2022-11-18 20:02:01
+ | 2022-11-25 13:55:57
+|-
+ | MED-1668826949
+ | tsy9j
+ | Asam Folat tablet 5 mg
+ | 96
+ | 2022-11-18 20:02:29
+ | 2022-11-25 13:56:06
+|-
+ | MED-1668827014
+ | 491ed
+ | Asiklovir krim 5 %
+ | 1276
+ | 2022-11-18 20:03:34
+ | 2022-11-25 13:56:24
+|-
+ | MED-1668827041
+ | 9zbwc
+ | Asiklovir tablet 200 mg
+ | 983
+ | 2022-11-18 20:04:01
+ | 2022-11-25 13:56:40
+|-
+ | MED-1668827068
+ | 7n6ee
+ | Asiklovir tablet 400 mg
+ | 7300
+ | 2022-11-18 20:04:28
+ | 2022-11-25 14:50:21
+|-
+ | MED-1668827092
+ | 655zb
+ | Atenolol tablet 100 mg
+ | 1033
+ | 2022-11-18 20:04:52
+ | 2022-11-25 14:51:23
+|-
+ | MED-1668827110
+ | 62fsa
+ | Atenolol tablet 50 mg
+ | 547
+ | 2022-11-18 20:05:10
+ | 2022-11-25 14:51:31
+|-
+ | MED-1668827196
+ | ra400
+ | Azatioprin tablet 50 mg
+ | 425
+ | 2022-11-18 20:06:36
+ | 2022-11-25 14:51:43
+|-
+ | MED-1668827243
+ | 5f93k
+ | Bisoprolol tablet 5 mg
+ | 4072
+ | 2022-11-18 20:07:23
+ | 2022-11-25 14:52:26
+|-
+ | MED-1668827264
+ | tw2ar
+ | Bromheksin tablet 8 mg
+ | 6
+ | 2022-11-18 20:07:44
+ | 2022-11-25 14:52:39
+|-
+ | MED-1668827292
+ | nbmpj
+ | Cetirizine tablet 10 mg
+ | 669
+ | 2022-11-18 20:08:12
+ | 2022-11-25 14:52:53
+|-
+ | MED-1668827325
+ | a4dqa
+ | Cisapride tablet 5 mg
+ | 1588
+ | 2022-11-18 20:08:45
+ | 2022-11-25 14:53:25
+|-
+ | MED-1668827362
+ | t7q8p
+ | Clobazam tablet 10 mg
+ | 1924
+ | 2022-11-18 20:09:22
+ | 2022-11-25 14:53:32
+|-
+ | MED-1668827384
+ | 8k3dc
+ | Dapson tablet 100 mg
+ | 64
+ | 2022-11-18 20:09:44
+ | 2022-11-25 14:53:41
+|-
+ | MED-1668827416
+ | rb1nd
+ | Diazepam tablet 2 mg
+ | 65
+ | 2022-11-18 20:10:16
+ | 2022-11-25 14:53:54
+|-
+ | MED-1668827447
+ | ptxfz
+ | Diazepam tablet 5 mg
+ | 98
+ | 2022-11-18 20:10:47
+ | 2022-11-25 14:54:12
+|-
+ | MED-1668827580
+ | aszus
+ | Eritromisin kapsul 250 mg
+ | 1021
+ | 2022-11-18 20:13:00
+ | 2022-11-25 14:54:24
+|-
+ | MED-1668827696
+ | mwfr7
+ | Etakridin larutan 0,1%
+ | 3645
+ | 2022-11-18 20:14:56
+ | 2022-11-25 22:39:09
+|-
+ | MED-1668828266
+ | rz0jr
+ | Etoposid kapsul 100 mg
+ | 14136
+ | 2022-11-18 20:24:26
+ | 2022-11-25 22:39:25
+|-
+ | MED-1668828324
+ | ycd0v
+ | Famotidine tablet 40 mg
+ | 359
+ | 2022-11-18 20:25:24
+ | 2022-11-25 14:55:19
+|-
+ | MED-1668828347
+ | tp2sa
+ | Famotidine tablet 20 mg
+ | 230
+ | 2022-11-18 20:25:47
+ | 2022-11-25 14:55:30
+|-
+ | MED-1668828625
+ | mkba3
+ | Fenitoin kapsul 100 mg
+ | 162
+ | 2022-11-18 20:30:25
+ | 2022-11-25 14:55:48
+|-
+ | MED-1668828657
+ | j0jwq
+ | Fenobarbital tablet 30 mg
+ | 132
+ | 2022-11-18 20:30:57
+ | 2022-11-25 14:55:57
+|-
+ | MED-1668828754
+ | 39qx3
+ | Flukonazol tablet 150 mg
+ | 44551
+ | 2022-11-18 20:32:34
+ | 2022-11-25 14:56:59
+|-
+ | MED-1668828791
+ | humh1
+ | Fluoride tablet 0,5 mg
+ | 67
+ | 2022-11-18 20:33:11
+ | 2022-11-25 22:39:38
+|-
+ | MED-1668828812
+ | 5hwbj
+ | Fluoride tablet 1 mg
+ | 83
+ | 2022-11-18 20:33:32
+ | 2022-11-25 22:39:47
+|-
+ | MED-1668828865
+ | fr97q
+ | Furosemid tablet 40 mg
+ | 205
+ | 2022-11-18 20:34:25
+ | 2022-11-25 22:39:56
+|-
+ | MED-1668828890
+ | 2p9uq
+ | Gameksan lotion 1 %
+ | 4455
+ | 2022-11-18 20:34:50
+ | 2022-11-25 22:40:07
+|-
+ | MED-1668829124
+ | v3u82
+ | Glimepiride tablet 1 mg
+ | 1540
+ | 2022-11-18 20:38:44
+ | 2022-11-25 22:40:16
+|-
+ | MED-1668829157
+ | a9cwf
+ | Glipizid tablet 5 mg
+ | 608
+ | 2022-11-18 20:39:17
+ | 2022-11-25 22:40:28
+|-
+ | MED-1668829188
+ | d56yf
+ | Gliquidon tablet 30 mg
+ | 1307
+ | 2022-11-18 20:39:48
+ | 2022-11-25 22:40:36
+|-
+ | MED-1668829209
+ | dk5pv
+ | Gliserin
+ | 9579
+ | 2022-11-18 20:40:09
+ | 2022-11-25 22:40:47
+|-
+ | MED-1668829278
+ | b53t4
+ | Haloperidol tablet 5 mg
+ | 248
+ | 2022-11-18 20:41:18
+ | 2022-11-25 22:41:10
+|-
+ | MED-1668829419
+ | by0hu
+ | Hidrokortison krim 1%
+ | 5268
+ | 2022-11-18 20:43:39
+ | 2022-11-25 22:47:04
+|}
+
+
+<!--
+Table data for `medicine_ins`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''medicine_ins'''
+|-
+ ! id
+ ! id_obat
+ ! jumlah_obat
+ ! harga_beli
+ ! tgl_masuk
+ ! id_supplier
+ ! expired
+ ! created_at
+ ! updated_at
+|-
+ | MDI-1668952524
+ | MED-1668813567
+ | 1250
+ | 816750
+ | 2022-11-17
+ | SUP-1668869239
+ | 2028-11-25
+ | 2022-11-20 13:55:24
+ | 2022-11-25 13:37:28
+|-
+ | MDI-1668952729
+ | MED-1668826633
+ | 1000
+ | 1296000
+ | 2022-11-17
+ | SUP-1668867661
+ | 0026-11-02
+ | 2022-11-20 13:58:49
+ | 2022-11-25 13:38:18
+|-
+ | MDI-1668961829
+ | MED-1668813494
+ | 1000
+ | 549000
+ | 2022-11-18
+ | SUP-1668868116
+ | 2030-11-14
+ | 2022-11-20 16:30:29
+ | 2022-11-25 13:39:25
+|-
+ | MDI-1669045479
+ | MED-1668813588
+ | 1000
+ | 789750
+ | 2022-11-21
+ | SUP-1668869596
+ | 2023-05-13
+ | 2022-11-21 15:44:39
+ | 2022-11-25 13:40:30
+|-
+ | MDI-1669329266
+ | MED-1668813523
+ | 1500
+ | 267300
+ | 2022-11-25
+ | SUP-1668867923
+ | 2024-11-30
+ | 2022-11-24 22:34:26
+ | 2022-11-25 13:40:49
+|-
+ | MDI-1669329309
+ | MED-1668813545
+ | 1700
+ | 562303
+ | 2022-11-25
+ | SUP-1668869467
+ | 2024-11-15
+ | 2022-11-24 22:35:09
+ | 2022-11-25 13:41:14
+|-
+ | MDI-1669329342
+ | MED-1668813610
+ | 1250
+ | 1518750
+ | 2022-11-25
+ | SUP-1668867923
+ | 2025-11-07
+ | 2022-11-24 22:35:42
+ | 2022-11-25 13:41:36
+|-
+ | MDI-1669329374
+ | MED-1668813644
+ | 1211
+ | 204465
+ | 2022-11-25
+ | SUP-1668867661
+ | 2024-11-21
+ | 2022-11-24 22:36:14
+ | 2022-11-25 13:41:54
+|-
+ | MDI-1669329437
+ | MED-1668813626
+ | 1450
+ | 6459750
+ | 2022-11-25
+ | SUP-1668869405
+ | 2024-11-01
+ | 2022-11-24 22:37:17
+ | 2022-11-25 13:42:55
+|-
+ | MDI-1669329535
+ | MED-1668813742
+ | 1213
+ | 71272
+ | 2022-11-25
+ | SUP-1668867661
+ | 2024-11-01
+ | 2022-11-24 22:38:55
+ | 2022-11-25 13:43:18
+|-
+ | MDI-1669329576
+ | MED-1668813867
+ | 4500
+ | 688320
+ | 2022-11-25
+ | SUP-1668867923
+ | 2024-11-15
+ | 2022-11-24 22:39:36
+ | 2022-11-25 13:44:55
+|-
+ | MDI-1669329619
+ | MED-1668826656
+ | 2000
+ | 4572000
+ | 2022-11-25
+ | SUP-1668533102
+ | 2024-11-08
+ | 2022-11-24 22:40:19
+ | 2022-11-25 13:45:17
+|-
+ | MDI-1669329658
+ | MED-1668826700
+ | 1450
+ | 562585
+ | 2022-11-25
+ | SUP-1668869175
+ | 2024-11-08
+ | 2022-11-24 22:40:58
+ | 2022-11-25 13:47:23
+|-
+ | MDI-1669329689
+ | MED-1668826729
+ | 1234
+ | 616383
+ | 2022-11-25
+ | SUP-1668869090
+ | 2024-11-02
+ | 2022-11-24 22:41:29
+ | 2022-11-25 13:48:14
+|-
+ | MDI-1669329723
+ | MED-1668826783
+ | 1211
+ | 439774
+ | 2022-11-25
+ | SUP-1668867661
+ | 2024-01-12
+ | 2022-11-24 22:42:03
+ | 2022-11-25 13:48:45
+|-
+ | MDI-1669329772
+ | MED-1668826808
+ | 1234
+ | 634707
+ | 2022-11-25
+ | SUP-1668869596
+ | 2025-11-08
+ | 2022-11-24 22:42:52
+ | 2022-11-25 13:49:02
+|-
+ | MDI-1669329807
+ | MED-1668826921
+ | 3214
+ | 295045
+ | 2022-11-25
+ | SUP-1668868417
+ | 2024-11-01
+ | 2022-11-24 22:43:27
+ | 2022-11-25 13:49:29
+|-
+ | MDI-1669329842
+ | MED-1668826949
+ | 1592
+ | 101012
+ | 2022-11-25
+ | SUP-1668868116
+ | 2024-11-15
+ | 2022-11-24 22:44:02
+ | 2022-11-25 13:49:46
+|-
+ | MDI-1669329886
+ | MED-1668827014
+ | 3214
+ | 2733828
+ | 2022-11-25
+ | SUP-1668869175
+ | 2024-11-01
+ | 2022-11-24 22:44:46
+ | 2022-11-25 13:50:05
+|-
+ | MDI-1669329926
+ | MED-1668827041
+ | 1450
+ | 949411
+ | 2022-11-25
+ | SUP-1668869239
+ | 2025-11-07
+ | 2022-11-24 22:45:26
+ | 2022-11-25 13:50:44
+|-
+ | MDI-1669329962
+ | MED-1668827068
+ | 1211
+ | 5892800
+ | 2022-11-25
+ | SUP-1668869009
+ | 2024-11-08
+ | 2022-11-24 22:46:02
+ | 2022-11-25 14:33:13
+|-
+ | MDI-1669329990
+ | MED-1668827092
+ | 1211
+ | 833652
+ | 2022-11-25
+ | SUP-1668868116
+ | 2024-11-01
+ | 2022-11-24 22:46:30
+ | 2022-11-25 14:34:07
+|-
+ | MDI-1669330023
+ | MED-1668827110
+ | 1211
+ | 441070
+ | 2022-11-25
+ | SUP-1668869009
+ | 2025-11-14
+ | 2022-11-24 22:47:03
+ | 2022-11-25 14:35:26
+|-
+ | MDI-1669330081
+ | MED-1668827196
+ | 1500
+ | 424200
+ | 2022-11-25
+ | SUP-1668869405
+ | 2025-11-01
+ | 2022-11-24 22:48:01
+ | 2022-11-25 14:35:48
+|-
+ | MDI-1669330109
+ | MED-1668827243
+ | 1211
+ | 3795596
+ | 2022-11-25
+ | SUP-1668869239
+ | 2024-12-13
+ | 2022-11-24 22:48:29
+ | 2022-11-25 14:36:11
+|-
+ | MDI-1669330142
+ | MED-1668827264
+ | 1500
+ | 5200
+ | 2022-11-25
+ | SUP-1668869405
+ | 2025-11-07
+ | 2022-11-24 22:49:02
+ | 2022-11-24 22:49:02
+|-
+ | MDI-1669330194
+ | MED-1668827292
+ | 1500
+ | 668250
+ | 2022-11-25
+ | SUP-1668869175
+ | 2024-11-08
+ | 2022-11-24 22:49:54
+ | 2022-11-25 14:37:21
+|-
+ | MDI-1669330223
+ | MED-1668827325
+ | 1500
+ | 1587090
+ | 2022-11-25
+ | SUP-1668869239
+ | 2024-11-08
+ | 2022-11-24 22:50:23
+ | 2022-11-25 14:37:59
+|-
+ | MDI-1669330260
+ | MED-1668827362
+ | 1500
+ | 1923750
+ | 2022-11-25
+ | SUP-1668869175
+ | 2024-11-08
+ | 2022-11-24 22:51:00
+ | 2022-11-25 14:38:37
+|-
+ | MDI-1669330287
+ | MED-1668827384
+ | 1500
+ | 63787
+ | 2022-11-25
+ | SUP-1668869090
+ | 2024-11-01
+ | 2022-11-24 22:51:27
+ | 2022-11-25 14:40:08
+|-
+ | MDI-1669330315
+ | MED-1668827416
+ | 1500
+ | 64605
+ | 2022-11-25
+ | SUP-1668869009
+ | 2025-11-08
+ | 2022-11-24 22:51:55
+ | 2022-11-25 14:40:32
+|-
+ | MDI-1669330342
+ | MED-1668827447
+ | 1500
+ | 97200
+ | 2022-11-25
+ | SUP-1668869175
+ | 2024-11-08
+ | 2022-11-24 22:52:22
+ | 2022-11-25 14:40:51
+|-
+ | MDI-1669330463
+ | MED-1668827580
+ | 1500
+ | 1020600
+ | 2022-11-25
+ | SUP-1668869596
+ | 2025-11-01
+ | 2022-11-24 22:54:23
+ | 2022-11-25 14:41:50
+|-
+ | MDI-1669330514
+ | MED-1668828324
+ | 1500
+ | 358440
+ | 2022-11-25
+ | SUP-1668869009
+ | 2024-11-16
+ | 2022-11-24 22:55:14
+ | 2022-11-25 14:42:07
+|-
+ | MDI-1669330545
+ | MED-1668828347
+ | 1500
+ | 229020
+ | 2022-11-25
+ | SUP-1668869009
+ | 2025-11-01
+ | 2022-11-24 22:55:45
+ | 2022-11-25 14:42:22
+|-
+ | MDI-1669330585
+ | MED-1668828625
+ | 1500
+ | 161058
+ | 2022-11-25
+ | SUP-1668867661
+ | 2024-11-16
+ | 2022-11-24 22:56:25
+ | 2022-11-25 14:43:47
+|-
+ | MDI-1669330649
+ | MED-1668828657
+ | 1500
+ | 131430
+ | 2022-11-25
+ | SUP-1668869175
+ | 2024-11-02
+ | 2022-11-24 22:57:29
+ | 2022-11-25 14:44:07
+|-
+ | MDI-1669330684
+ | MED-1668828754
+ | 500
+ | 14850200
+ | 2022-11-25
+ | SUP-1668869090
+ | 2024-11-01
+ | 2022-11-24 22:58:04
+ | 2022-11-25 14:45:34
+|-
+ | MDI-1669330717
+ | MED-1668828791
+ | 1500
+ | 66645
+ | 2022-11-25
+ | SUP-1668869467
+ | 2025-11-07
+ | 2022-11-24 22:58:37
+ | 2022-11-25 14:48:47
+|-
+ | MDI-1669330739
+ | MED-1668828812
+ | 1234
+ | 67487
+ | 2022-11-25
+ | SUP-1668867661
+ | 2024-11-01
+ | 2022-11-24 22:58:59
+ | 2022-11-25 14:49:41
+|-
+ | MDI-1669330764
+ | MED-1668828865
+ | 1500
+ | 204525
+ | 2022-11-25
+ | SUP-1668869090
+ | 2024-11-01
+ | 2022-11-24 22:59:24
+ | 2022-11-25 22:30:58
+|-
+ | MDI-1669330791
+ | MED-1668828890
+ | 1500
+ | 4455000
+ | 2022-11-25
+ | SUP-1668869239
+ | 2024-11-09
+ | 2022-11-24 22:59:51
+ | 2022-11-25 22:31:47
+|-
+ | MDI-1669330845
+ | MED-1668829124
+ | 1500
+ | 1539150
+ | 2022-11-25
+ | SUP-1668868116
+ | 2024-11-09
+ | 2022-11-24 23:00:45
+ | 2022-11-25 22:32:23
+|-
+ | MDI-1669330875
+ | MED-1668829157
+ | 1500
+ | 607500
+ | 2022-11-25
+ | SUP-1668869090
+ | 2024-11-16
+ | 2022-11-24 23:01:15
+ | 2022-11-25 22:33:14
+|-
+ | MDI-1669330917
+ | MED-1668829188
+ | 1500
+ | 1306710
+ | 2022-11-25
+ | SUP-1668869239
+ | 2024-11-02
+ | 2022-11-24 23:01:57
+ | 2022-11-25 22:33:47
+|-
+ | MDI-1669330938
+ | MED-1668829209
+ | 1500
+ | 9579000
+ | 2022-11-25
+ | SUP-1668869090
+ | 2024-11-02
+ | 2022-11-24 23:02:18
+ | 2022-11-25 22:34:20
+|-
+ | MDI-1669330975
+ | MED-1668829278
+ | 1234
+ | 203721
+ | 2022-11-25
+ | SUP-1668868417
+ | 2024-11-09
+ | 2022-11-24 23:02:55
+ | 2022-11-25 22:34:51
+|-
+ | MDI-1669331105
+ | MED-1668829419
+ | 1500
+ | 4657500
+ | 2022-11-25
+ | SUP-1668869596
+ | 2024-11-09
+ | 2022-11-24 23:05:05
+ | 2022-11-25 22:36:12
+|-
+ | MDI-1669331400
+ | MED-1668827696
+ | 1500
+ | 3645000
+ | 2022-11-25
+ | SUP-1668869405
+ | 2024-11-01
+ | 2022-11-24 23:10:00
+ | 2022-11-25 22:36:57
+|-
+ | MDI-1669331457
+ | MED-1668828266
+ | 1500
+ | 14135700
+ | 2022-11-25
+ | SUP-1668869175
+ | 2024-11-08
+ | 2022-11-24 23:10:57
+ | 2022-11-25 22:37:36
+|-
+ | MDI-1669416396
+ | MED-1668829419
+ | 1250
+ | 5000000
+ | 2022-11-26
+ | SUP-1668869467
+ | 2025-11-07
+ | 2022-11-25 22:46:36
+ | 2022-11-25 22:46:36
+|}
+
+
+<!--
+Table data for `migrations`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''migrations'''
+|-
+ ! id
+ ! migration
+ ! batch
+|-
+ | 1
+ | 2014_10_12_000000_create_users_table
+ | 1
+|-
+ | 2
+ | 2019_08_19_000000_create_failed_jobs_table
+ | 1
+|-
+ | 3
+ | 2019_12_14_000001_create_personal_access_tokens_table
+ | 1
+|-
+ | 4
+ | 2022_09_30_190301_create_roles_table
+ | 1
+|-
+ | 5
+ | 2022_10_02_181402_patients
+ | 1
+|-
+ | 6
+ | 2022_10_02_182152_create_app_users_table
+ | 1
+|-
+ | 7
+ | 2022_10_09_130351_create_antrian
+ | 1
+|-
+ | 8
+ | 2022_10_09_130823_penyakit
+ | 1
+|-
+ | 9
+ | 2022_10_09_131102_obat
+ | 1
+|-
+ | 10
+ | 2022_10_09_131652_suplier
+ | 1
+|-
+ | 11
+ | 2022_10_09_131859_obat_masuk
+ | 1
+|-
+ | 12
+ | 2022_10_09_132330_obat_keluar
+ | 1
+|-
+ | 13
+ | 2022_10_09_132451_resep
+ | 1
+|-
+ | 14
+ | 2022_10_09_132843_detil_resep
+ | 1
+|-
+ | 15
+ | 2022_10_09_133027_dokter
+ | 1
+|}
+
+
+<!--
+Table data for `patients`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''patients'''
+|-
+ ! id
+ ! rm_number
+ ! name
+ ! identity_number
+ ! phone_number
+ ! place_of_birth
+ ! date_of_birth
+ ! address
+ ! insurance
+ ! is_valid
+ ! created_at
+ ! updated_at
+|-
+ | PAT-1668434808
+ | RM-1668434722
+ | Agatha Renata
+ | 8397210374207830
+ | 087845666600
+ | Bantul
+ | 2000-11-22
+ | Padokan kidul no 7 Tirtonirmolo Kasihan Bantul Daerah Istimewa Yogyakarta
+ | 8940879379479034
+ | 0
+ | 2022-11-14 14:06:48
+ | 2022-11-14 14:06:48
+|-
+ | PAT-1668442962
+ | RM-1668442940
+ | Anita Kahoot
+ | 4957203470234780
+ | 09347497238998
+ | Jakarta
+ | 1992-11-30
+ | Alamat
+ | 8940879379479034
+ | 0
+ | 2022-11-14 16:22:42
+ | 2022-11-14 16:22:42
+|-
+ | PAT-1668443068
+ | RM-1668443038
+ | Rianto
+ | 1234689012389897
+ | 08786664593734
+ | Bantul
+ | 1990-11-01
+ | Bantul
+ | 8903284908234820
+ | 0
+ | 2022-11-14 16:24:28
+ | 2022-11-14 16:24:28
+|-
+ | PAT-1669112185
+ | RM-1669111861
+ | Nita Alinda
+ | 2903110721092248
+ | 085472773214
+ | Bantul
+ | 1966-11-01
+ | 124,Jalan Jenderal Sudirman Bantul Yogyakarta
+ | 49869213077359
+ | 0
+ | 2022-11-22 10:16:25
+ | 2022-11-22 10:16:25
+|-
+ | PAT-1669112621
+ | RM-1669112412
+ | Muhammad Ali
+ | 5259279208405755
+ | 087677572342
+ | Serpong
+ | 1997-05-14
+ | Selokan Mataram Jalan Magelang KM 6, Jalan Sinduadi, Kutu Patran
+ | 57570222828028
+ | 0
+ | 2022-11-22 10:23:41
+ | 2022-11-22 10:23:41
+|-
+ | PAT-1669112737
+ | RM-1669112628
+ | Putri Anak Putu
+ | 1684312240484176
+ | 085866743221
+ | Bantul
+ | 1988-06-23
+ | Jl. Parangtritis KM 3, 5 No. A25, Sewon, Yogyakarta.
+ | 48309935185226
+ | 0
+ | 2022-11-22 10:25:37
+ | 2022-11-22 10:25:37
+|-
+ | PAT-1669112858
+ | RM-1669112745
+ | Aprilia Putri Syaira
+ | 0663150858857192
+ | 087659442146
+ | Jakarta
+ | 1999-08-05
+ | Jalan Kaliurang KM. 17, Pakem. Sleman , Daerah Istimewa Yogyakarta
+ | 53905101210292
+ | 0
+ | 2022-11-22 10:27:38
+ | 2022-11-22 10:27:38
+|-
+ | PAT-1669112970
+ | RM-1669112866
+ | Damai Aji Sentosa
+ | 2200288380699418
+ | 0835672398
+ | Yogyakarta
+ | 1991-07-04
+ | Jl. Cik Di Tiro No. 29 (Jl. Cik Di Tiro No. 29), Yogyakarta, DI Yogyakarta
+ | 56479402720085
+ | 0
+ | 2022-11-22 10:29:30
+ | 2022-11-22 10:29:30
+|-
+ | PAT-1669113130
+ | RM-1669112984
+ | Eko Paiji
+ | 1402527514690968
+ | 0899763547659
+ | Klaten
+ | 1992-06-19
+ | Jl Jenderal Sudirman 9, Yogyakarta
+ | 65152640353377
+ | 0
+ | 2022-11-22 10:32:10
+ | 2022-11-22 10:32:10
+|-
+ | PAT-1669113247
+ | RM-1669113140
+ | Ochi Nabilaya
+ | 8134313117866478
+ | 086588745621
+ | Surabaya
+ | 2000-04-16
+ | Jl. Laksda Adisucipto
+ | 99274248526035
+ | 0
+ | 2022-11-22 10:34:07
+ | 2022-11-22 10:34:07
+|-
+ | PAT-1669113399
+ | RM-1669113263
+ | Saputri Ananda
+ | 9973032187291274
+ | 087754264874
+ | Banten
+ | 2002-01-18
+ | Jalan Laksda Adi Sucipto No. 80, Yogyakarta
+ | 16538794615673
+ | 0
+ | 2022-11-22 10:36:39
+ | 2022-11-22 10:36:39
+|-
+ | PAT-1669194875
+ | RM-1669194733
+ | Bagus Putra Prasaja
+ | 9313325176006037
+ | 083367841196
+ | Semarang
+ | 2001-10-04
+ | Jalan Ki Mangunsarkoro, Gunung Ketur, Pakualaman, Yogyakarta, Daerah Istimewa Yogyakarta
+ | 59615874429932
+ | 1
+ | 2022-11-23 09:14:35
+ | 2022-11-23 15:22:09
+|-
+ | PAT-1669195029
+ | RM-1669194909
+ | Budi Nurcahyo
+ | 8726675333884061
+ | 087782148265
+ | Sleman
+ | 1995-06-12
+ | Jl. Palagan Tentara Pelajar, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman
+ | 57698143992284
+ | 0
+ | 2022-11-23 09:17:09
+ | 2022-11-23 09:17:09
+|-
+ | PAT-1669195197
+ | RM-1669195061
+ | Ananta Dianta
+ | 3272004804167507
+ | 08225738920019
+ | Sleman
+ | 1998-12-31
+ | Jl. Ahmad Jazuli No. 57, Yogyakarta
+ | 00680008043473
+ | 1
+ | 2022-11-23 09:19:57
+ | 2022-11-23 09:51:05
+|-
+ | PAT-1669195396
+ | RM-1669195233
+ | Rianti Sukmarini
+ | 8154716644424331
+ | 081635827397
+ | Bantul
+ | 1978-04-11
+ | Jl. Dr. Wahidin Sudiro Husodo, Area Sawah, Trirenggo, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta
+ | 74567569950071
+ | 1
+ | 2022-11-23 09:23:16
+ | 2022-11-23 09:48:55
+|-
+ | PAT-1669195586
+ | RM-1669195432
+ | Xabila Alexandra Sudiro
+ | 8446092169679436
+ | 084476339267
+ | Yogyakarta
+ | 2002-02-07
+ | JL. Jendral Sudirman, Terban, Gondokusuman
+ | 10242800456578
+ | 1
+ | 2022-11-23 09:26:26
+ | 2022-11-23 09:48:04
+|-
+ | PAT-1669195679
+ | RM-1669195593
+ | Ari Lesmana Sudiro
+ | 7933502612796253
+ | 087758209178
+ | Yogyakarta
+ | 1969-09-07
+ | JL. Jendral Sudirman , Terban, Gondokusuman
+ | 69196667727305
+ | 0
+ | 2022-11-23 09:27:59
+ | 2022-11-23 09:27:59
+|-
+ | PAT-1669195815
+ | RM-1669195723
+ | Dianti Setyarini
+ | 7059850938539684
+ | 089876773462
+ | Bantul
+ | 1973-05-21
+ | JL. Jendral Sudirman , Terban, Gondokusuman
+ | 25624023402644
+ | 0
+ | 2022-11-23 09:30:15
+ | 2022-11-23 09:30:15
+|-
+ | PAT-1669196535
+ | RM-1669196411
+ | Slamet Riyanto
+ | 1168472981635663
+ | 087832332736
+ | Bantul
+ | 1967-08-01
+ | Jalan Pramuka Nomor RT. 03, Area Sawah, Trirenggo, Kecamatan Bantul, Kabutan Bantul, Yogyakarta
+ | 85992412134472
+ | 0
+ | 2022-11-23 09:42:15
+ | 2022-11-23 09:42:15
+|-
+ | PAT-1669196738
+ | RM-1669196546
+ | Murjiyah Parjiyem
+ | 7375576322412860
+ | 086625536277
+ | Bantul
+ | 1964-07-29
+ | Jln. Parangtritis KM 11 Sabdodadi, Bantul, Bantul
+ | 39129826569185
+ | 0
+ | 2022-11-23 09:45:38
+ | 2022-11-23 09:45:38
+|-
+ | PAT-1669268621
+ | RM-1669268298
+ | Lalisa Rosejisoo Jennieya
+ | 4977237565546949
+ | 081164852726
+ | Kulon Progo
+ | 2004-06-15
+ | Jl. Affandi No.43, Santren, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta
+ | 86180733280839
+ | 0
+ | 2022-11-24 05:43:41
+ | 2022-11-24 05:43:41
+|-
+ | PAT-1669268843
+ | RM-1669268631
+ | Wan Muhammad Ferdyansyah
+ | 1871131405970001
+ | 087856254596
+ | Lubuk Linggau
+ | 1997-05-14
+ | Jl. Jogokaryan
+ | 41771128110891
+ | 0
+ | 2022-11-24 05:47:23
+ | 2022-11-24 05:47:23
+|-
+ | PAT-1669269026
+ | RM-1669268854
+ | Iryanda Bayu Saputra
+ | 7265862531949412
+ | 087854253645
+ | Sleman
+ | 1999-11-03
+ | Jl. Kolonel Sugiyono
+ | 40710262456741
+ | 0
+ | 2022-11-24 05:50:26
+ | 2022-11-24 05:50:26
+|-
+ | PAT-1669269124
+ | RM-1669269037
+ | Kafka Ananda
+ | 7759331587356472
+ | 082585731648
+ | Sleman
+ | 1998-01-02
+ | Jl. Hayam Wuruk
+ | 51161420775284
+ | 0
+ | 2022-11-24 05:52:04
+ | 2022-11-24 05:52:04
+|-
+ | PAT-1669269277
+ | RM-1669269140
+ | Januar Yasa Ananta
+ | 6519539501706441
+ | 082122356485
+ | Yogyakarta
+ | 2000-01-01
+ | Gg. Pronocitro No.714-712
+ | 28581829705732
+ | 0
+ | 2022-11-24 05:54:37
+ | 2022-11-24 05:54:37
+|-
+ | PAT-1669269472
+ | RM-1669269288
+ | Nabila Agatha
+ | 6506475708947702
+ | 08125245741368
+ | Jakarta
+ | 1992-10-21
+ | Jl. Panembahan Senopati No.2
+ | 38029636343130
+ | 0
+ | 2022-11-24 05:57:52
+ | 2022-11-24 05:57:52
+|-
+ | PAT-1669385503
+ | RM-1669385376
+ | Vallerie Patkar
+ | 8724221027723629
+ | 081278662982
+ | Yogyakarta
+ | 1997-06-13
+ | Perum UGM, Jl. Bulaksumur Blok E No. 12, Caturtunggal, Depok, Sagan, Caturtunggal, Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta
+ | 34642772936387
+ | 0
+ | 2022-11-25 14:11:43
+ | 2022-11-25 14:11:43
+|-
+ | PAT-1669385805
+ | RM-1669385684
+ | Armando Esteban Quito
+ | 2622442079017445
+ | 081223232343
+ | Bali
+ | 2005-05-07
+ | Gg. Lurik Kingkin, Sonosewu, Ngestiharjo, Kec. Kasihan, Bantul
+ | 70491175690671
+ | 0
+ | 2022-11-25 14:16:45
+ | 2022-11-25 14:16:45
+|-
+ | PAT-1669385970
+ | RM-1669385958
+ | Meinanda Cahyani
+ | 8597464364315564
+ | 088987221836
+ | Surabaya
+ | 2000-05-29
+ | Jl. Wates KM 3, Amarta, Yogyakarta
+ | 19002941821587
+ | 0
+ | 2022-11-25 14:19:30
+ | 2022-11-25 14:19:30
+|-
+ | PAT-1669386132
+ | RM-1669386034
+ | Manda Laila Hamida
+ | 5669065559564571
+ | 083377829362
+ | Yogyakarta
+ | 1993-10-26
+ | Jl. Kaliurang KM 4,5 no 17 Kocoran, Caturtunggal,, Kocoran, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta
+ | 48271201552751
+ | 0
+ | 2022-11-25 14:22:12
+ | 2022-11-25 14:22:12
+|-
+ | PAT-1669386262
+ | RM-1669386192
+ | Azura Syahreza
+ | 1989838487278430
+ | 083231775292
+ | Yogyakarta
+ | 2001-01-03
+ | Jl. Kapten Piere Tendean No.40, Wirobrajan, Kota Yogyakarta
+ | 21277657720082
+ | 0
+ | 2022-11-25 14:24:22
+ | 2022-11-25 14:24:22
+|-
+ | PAT-1669386566
+ | RM-1669386350
+ | Dita Leni Rafi Aachmad
+ | 1351720025850821
+ | 087728172917
+ | Sleman
+ | 1981-11-03
+ | Jl. Imogiri Timur Km 8 Botokenceng Banguntapan 55194 Bantul
+ | 39321589714007
+ | 1
+ | 2022-11-25 14:29:26
+ | 2022-11-28 06:47:15
+|-
+ | PAT-1669796737
+ | RM-1669796483
+ | Tini Suhartini
+ | 0220975329876686
+ | 082237882937
+ | Bantul
+ | 1966-08-13
+ | Jalan Ambarejo 55281 Sleman Daerah Istimewa Yogyakarta
+ | 37294299769066
+ | 0
+ | 2022-11-30 08:25:37
+ | 2022-11-30 08:25:37
+|-
+ | PAT-1669796888
+ | RM-1669796748
+ | Agus Adi
+ | 5041326017409720
+ | 089947379288
+ | Yogyakarta
+ | 1977-08-17
+ | Jl. A.M. Sangaji No.41, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta
+ | 01635240349938
+ | 0
+ | 2022-11-30 08:28:08
+ | 2022-11-30 08:28:08
+|-
+ | PAT-1669797367
+ | RM-1669797225
+ | Dewi Lestari
+ | 0730831082105371
+ | 087783772993
+ | Bandung
+ | 1987-03-02
+ | Jl. Babarsari, Tambak Bayan, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta
+ | 37377274213923
+ | 0
+ | 2022-11-30 08:36:07
+ | 2022-11-30 08:36:07
+|-
+ | PAT-1669797492
+ | RM-1669797376
+ | Mada Reza Ramansyah
+ | 3553255912872214
+ | 088897709454
+ | Banten
+ | 2002-04-27
+ | Jl. Pangeran Diponegoro, Bumijo, Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta
+ | 92048000900206
+ | 0
+ | 2022-11-30 08:38:12
+ | 2022-11-30 08:38:12
+|-
+ | PAT-1669797686
+ | RM-1669797582
+ | Yohanes Ardantio
+ | 2634879422797681
+ | 087728172737
+ | Kulon Progo
+ | 1999-06-22
+ | Sorosutan, Umbulharjo, Yogyakarta
+ | 14136861584434
+ | 0
+ | 2022-11-30 08:41:26
+ | 2022-11-30 08:41:26
+|-
+ | PAT-1669797894
+ | RM-1669797748
+ | Aries Azrian
+ | 8549535485189529
+ | 083347738499
+ | Yogyakarta
+ | 1975-12-11
+ | Jl. Veteran No.4, Kepek, Wonosari, Yogyakarta, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta
+ | 09494742686529
+ | 0
+ | 2022-11-30 08:44:54
+ | 2022-11-30 08:44:54
+|-
+ | PAT-1670057074
+ | RM-1670056830
+ | Tuti Wardhani
+ | 0517596685828600
+ | 089854252535
+ | Bantul
+ | 1956-02-02
+ | Jl. Jend Sudirman
+ | 55407234050063
+ | 0
+ | 2022-12-03 08:44:34
+ | 2022-12-03 08:44:34
+|-
+ | PAT-1670057217
+ | RM-1670057078
+ | Bungadila Magdalena
+ | 7468823450706844
+ | 087858466528
+ | Yogyakarta
+ | 1989-12-04
+ | Ngancar, Karangtalun, Imogiri, Bantul, Daerah Istimewa Yogyakarta.
+ | 59596174983007
+ | 0
+ | 2022-12-03 08:46:57
+ | 2022-12-03 08:46:57
+|-
+ | PAT-1670057428
+ | RM-1670057257
+ | Agus Joko Mulyono
+ | 7138954365779446
+ | 08554682546875
+ | Imogiri
+ | 1961-04-12
+ | Jl. Imogiri-Mangunan Km. 3 Desa Giriloyo, Wukirsari, Imogiri.
+ | 17942650227921
+ | 0
+ | 2022-12-03 08:50:28
+ | 2022-12-03 08:50:28
+|-
+ | PAT-1670057561
+ | RM-1670057432
+ | Rini Wulandari Kusnaini
+ | 4827794819134649
+ | 088585969674
+ | Kota Gede
+ | 1969-08-29
+ | Jalan Karanglo Timur, Pasar Kotagede, Yogyakarta.
+ | 51128297611580
+ | 0
+ | 2022-12-03 08:52:41
+ | 2022-12-03 08:52:41
+|-
+ | PAT-1670057782
+ | RM-1670057661
+ | Muhammad Afrino
+ | 9915816004284907
+ | 089825339985
+ | Magelang
+ | 2005-10-01
+ | Kitren, Prenggan, Kotagede, Daerah Istimewa Yogyakarta
+ | 92002113624894
+ | 0
+ | 2022-12-03 08:56:22
+ | 2022-12-03 08:56:22
+|-
+ | PAT-1670057985
+ | RM-1670057814
+ | Anggun Winata
+ | 9944135045300223
+ | 089977556688
+ | Sleman
+ | 1987-01-29
+ | Jalan Ring Road Barat, Bedog, Trihanggo, Kabupaten Sleman, D.I. Yogyakarta
+ | 41326770891660
+ | 0
+ | 2022-12-03 08:59:45
+ | 2022-12-03 08:59:45
+|-
+ | PAT-1670058122
+ | RM-1670058031
+ | Rina Miana
+ | 4181406032397516
+ | 088855449977
+ | Purbolinggo
+ | 1991-05-03
+ | Jl. Mayor Suryotomo No.7, Ngupasan, Kec. Gondomanan
+ | 15609461952850
+ | 0
+ | 2022-12-03 09:02:02
+ | 2022-12-03 09:02:02
+|}
+
+
+<!--
+Table data for `personal_access_tokens`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''personal_access_tokens'''
+|-
+ ! id
+ ! tokenable_type
+ ! tokenable_id
+ ! name
+ ! token
+ ! abilities
+ ! last_used_at
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `references`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''references'''
+|-
+ ! id
+ ! name
+ ! created_at
+ ! updated_at
+|-
+ | REF-1668434808
+ | MENDAFTAR
+ | 2022-11-22
+ | 
+|-
+ | REF-1668434809
+ | DIPERIKSA
+ | 2022-11-22
+ | 
+|-
+ | REF-1668434810
+ | SELESAI
+ | 2022-11-22
+ | 
+|}
+
+
+<!--
+Table data for `roles`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''roles'''
+|-
+ ! id
+ ! name
+ ! created_at
+ ! updated_at
+ ! description
+|-
+ | RL-14911816
+ | dokter
+ | 
+ | 
+ | 
+|-
+ | RL-56810493
+ | resepsionis
+ | 
+ | 
+ | 
+|-
+ | RL-67330231
+ | apoteker
+ | 
+ | 
+ | 
+|-
+ | RL-93588496
+ | admin
+ | 
+ | 
+ | 
+|}
+
+
+<!--
+Table data for `suppliers`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''suppliers'''
+|-
+ ! id
+ ! name
+ ! phone_number
+ ! address
+ ! created_at
+ ! updated_at
+|-
+ | SUP-1668533102
+ | Antar Mitra Sembada Cabang Yogyakarta, PT
+ | 087845666600
+ | Yogyakarta
+ | 2022-11-15 17:25:02
+ | 2022-11-15 17:25:02
+|-
+ | SUP-1668867661
+ | Globalindo Inti Sarana PT
+ | 02158355151
+ | Ruko Kedoya Indah Blok RB-BE Jl. Kedoya Raya, Jakarta Barat 11520
+ | 2022-11-19 07:21:01
+ | 2022-11-19 07:21:01
+|-
+ | SUP-1668867923
+ | CV. Dynasty Group
+ | 08112880885
+ | Jl. Beskalan No. 504 Ngupasan Gondomanan, Yogyakarta, Yogyakarta, Indonesia
+ | 2022-11-19 07:25:23
+ | 2022-11-19 07:25:23
+|-
+ | SUP-1668868116
+ | KICHI ARZIKI INDUSTRI PT
+ | 02188387202
+ | Ruko Bolevard Hijau Blok D10-A No 1 Medan Satria Bekasi 17132
+ | 2022-11-19 07:28:36
+ | 2022-11-19 17:39:58
+|-
+ | SUP-1668868417
+ | CV Cakra Bismaka Maheswara
+ | 085290398735
+ | Jl. Kyai Ahmad Sahid No. 16 Dusun Pokoh Rt 001/Rw 019, Wedomartani, Ngemplak, Sleman, Yogyakarta 55584, Sleman, Yogyakarta, Indonesia
+ | 2022-11-19 07:33:37
+ | 2022-11-19 17:40:08
+|-
+ | SUP-1668868731
+ | PT. Bina Mitra Jaya Bersama
+ | 0815503777
+ | Ruko Gateway Blok A 33-37, Sidoarjo, Surabaya, Indonesia
+ | 2022-11-19 07:38:51
+ | 2022-11-19 07:38:51
+|-
+ | SUP-1668869009
+ | PT. Podo Mekar Jaya Sentosa
+ | 081145796523
+ | Surabaya
+ | 2022-11-19 07:43:29
+ | 2022-11-19 07:43:29
+|-
+ | SUP-1668869090
+ | PT. Triguna Medika Pratama
+ | 081432742119
+ | Surabaya
+ | 2022-11-19 07:44:50
+ | 2022-11-19 07:44:50
+|-
+ | SUP-1668869175
+ | PT. Promedika Mitra Farma
+ | 082173594378
+ | Yogyakarta
+ | 2022-11-19 07:46:15
+ | 2022-11-19 07:46:15
+|-
+ | SUP-1668869239
+ | PT. Jaya Utama Santikah
+ | 082174659812
+ | Jakarta Barat
+ | 2022-11-19 07:47:19
+ | 2022-11-19 07:47:19
+|-
+ | SUP-1668869405
+ | Jogja Herbal
+ | 085850889736
+ | Letjen Soeprapto No. 60 B, Yogyakarta, Yogyakarta, Indonesia
+ | 2022-11-19 07:50:05
+ | 2022-11-19 07:50:05
+|-
+ | SUP-1668869467
+ | CV Cakra Bismaka Maheswara
+ | 02177348263
+ | Jl. Kyai Ahmad Sahid No. 16 Dusun Pokoh Rt 001/Rw 019, Wedomartani, Ngemplak, Sleman, Yogyakarta 55584, Sleman, Yogyakarta, Indonesia
+ | 2022-11-19 07:51:07
+ | 2022-11-19 07:51:36
+|-
+ | SUP-1668869596
+ | PT. Naturindo Fresh
+ | 082114597432
+ | Jl. Kebun Raya No.73 Rejowinangun Kotagede Yogyakarta, Yogyakarta, Yogyakarta, Indonesia
+ | 2022-11-19 07:53:16
+ | 2022-11-19 07:53:16
+|}
+
+
+<!--
+Table data for `users`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''users'''
+|-
+ ! id
+ ! name
+ ! username
+ ! password
+ ! role_id
+ ! doctor_id
+ ! is_login
+ ! created_at
+ ! updated_at
+|-
+ | US-34343837
+ | Some Apoteker
+ | apoteker
+ | $2y$10$gjjmIVycwkL80adqgBk.luqs86QqNgjproN2Rds7/hA4ig9RTajcm
+ | RL-67330231
+ | 
+ | 1
+ | 
+ | 2022-12-08 18:25:24
+|-
+ | US-40458415
+ | Some Admin
+ | admin
+ | $2y$10$K9e3v1ZflvTTsCtn8Hp24eMYHEbC5JjvqWMNaF0A3TpZkvVPudXCO
+ | RL-93588496
+ | 
+ | 0
+ | 
+ | 2022-12-08 15:37:12
+|-
+ | US-59348536
+ | Some Receptionist
+ | resepsionis
+ | $2y$10$cJewOWfeWgOmQ9XkmQkOfuEvlnKMtj9S/v1wrRsIHJ3UouKHRAOa.
+ | RL-56810493
+ | 
+ | 0
+ | 
+ | 2022-12-06 16:55:31
+|-
+ | US-93724225
+ | Dr. Gerrald Leonardo
+ | dokter
+ | $2y$10$TPaHIRHS8LCvN6Z4BbrReOy0x3dEKdJF3YR2G2PFslpAMnDBbaige
+ | RL-14911816
+ | DOC-1668447696
+ | 0
+ | 
+ | 2022-12-08 18:25:14
+|-
+ | USR-1668599964
+ | Devri Budi Christianto
+ | devri
+ | $2y$10$NxpSWMoEVI9ehFZDKBtE9eohHMJzrwNXWaM.lgzEnRnYJwaqW6HAi
+ | RL-93588496
+ | 
+ | 0
+ | 2022-11-16 11:59:24
+ | 2022-11-16 16:00:44
+|-
+ | USR-1669716699
+ | Annisa Kautsar
+ | annisa
+ | $2y$10$AZc7x.48DJ9baqDiLlHkReipOzbLFG7D8slcwfOkT5CDJi3bpM7Mi
+ | RL-93588496
+ | 
+ | 0
+ | 2022-11-29 17:11:39
+ | 2022-11-29 17:11:39
+|}
+
+
+<!--
+Table data for `visitors`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''visitors'''
+|-
+ ! id
+ ! id_patients
+ ! id_status
+ ! id_doctors
+ ! blood_preasure
+ ! indications
+ ! disease
+ ! check_up_date
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `visitor_medicines`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''visitor_medicines'''
+|-
+ ! id
+ ! id_visitor
+ ! id_medicine
+ ! id_status
+ ! total_medicine
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `tb_datapengguna`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_datapengguna'''
+|-
+ ! id
+ ! nim
+ ! nama
+ ! jenis_kelamin
+ ! no_telp
+ ! alamat
+ ! profil
+|-
+ | 1
+ | 21330034
+ | agung
+ | L
+ | 8123
+ | jalan turi
+ | agung.jpg
+|-
+ | 2
+ | 21330037
+ | sasya
+ | L
+ | 8123
+ | jalan sleman
+ | profil1.jpg
+|-
+ | 3
+ | 21330035
+ | arkhisna
+ | L
+ | 8123
+ | jalan turi
+ | profil2.jpg
+|-
+ | 4
+ | 21330032
+ | sabela
+ | L
+ | 8123
+ | jalan turi
+ | profil5.jpg
+|-
+ | 5
+ | 21330034
+ | pajer
+ | L
+ | 8123
+ | jalan turi
+ | profil2.jpg
+|-
+ | 6
+ | 21330034
+ | udin
+ | L
+ | 8123
+ | jalan turi
+ | profil1.jpg
+|-
+ | 7
+ | 21330038
+ | rudi
+ | L
+ | 8123
+ | jalan turi
+ | profil3.jpg
+|-
+ | 8
+ | 21330035
+ | santi
+ | L
+ | 8123
+ | jalan turi
+ | profil1.jpg
+|-
+ | 9
+ | 21330037
+ | rijal
+ | L
+ | 8123
+ | jalan turi
+ | profil2.jpg
+|-
+ | 10
+ | 21330045
+ | sakdi
+ | L
+ | 8123
+ | jalan turi
+ | profil1.jpg
+|-
+ | 11
+ | 21330085
+ | mukidi
+ | L
+ | 8123
+ | jalan turi
+ | profil4.jpg
+|}
+
+
+<!--
+Table data for `tb_datapresensi`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''tb_datapresensi'''
+|-
+ ! id
+ ! nim
+ ! hari
+ ! jam_hadir
+ ! jam_pulang
+ ! shift
+ ! terlambat
+ ! potongan
+ ! keterangan
+|-
+ | 1
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 2
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 3
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 4
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 5
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 6
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 7
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 8
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 9
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 10
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|-
+ | 11
+ | 21330034
+ | 2022-10-12
+ | 10:07:33
+ | 10:07:34
+ | 10:07:36
+ | 
+ | 
+ | 
+|}
+
+
+<!--
+Table data for `siswa`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''siswa'''
+|-
+ ! id
+ ! nama
+ ! kelas
+|-
+ | 1
+ | agus
+ | 1
+|-
+ | 2
+ | budi
+ | 1
+|-
+ | 3
+ | ceria
+ | 1
+|-
+ | 4
+ | slamet
+ | 1
+|-
+ | 5
+ | alex
+ | 2
+|-
+ | 6
+ | regina
+ | 2
+|-
+ | 7
+ | gugun
+ | 2
+|-
+ | 8
+ | haryanto
+ | 3
+|-
+ | 9
+ | vandy
+ | 4
+|-
+ | 10
+ | yan
+ | 4
+|-
+ | 11
+ | aprilia
+ | 2
+|}
+
+
+<!--
+Table data for `antrian`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''antrian'''
+|-
+ ! id
+ ! no_antrian
+ ! rm_number
+ ! id_patient
+ ! id_doctor
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `app_users`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''app_users'''
+|-
+ ! id
+ ! app_name
+ ! client_id
+ ! secret_id
+ ! is_active
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `detil_resep`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''detil_resep'''
+|-
+ ! id
+ ! id_resep
+ ! id_obat
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `dokter`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''dokter'''
+|-
+ ! id
+ ! nama
+ ! harga
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `failed_jobs`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''failed_jobs'''
+|-
+ ! id
+ ! uuid
+ ! connection
+ ! queue
+ ! payload
+ ! exception
+ ! failed_at
+|}
+
+
+<!--
+Table data for `migrations`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''migrations'''
+|-
+ ! id
+ ! migration
+ ! batch
+|-
+ | 1
+ | 2014_10_12_000000_create_users_table
+ | 1
+|-
+ | 2
+ | 2019_08_19_000000_create_failed_jobs_table
+ | 1
+|-
+ | 3
+ | 2019_12_14_000001_create_personal_access_tokens_table
+ | 1
+|-
+ | 4
+ | 2022_09_30_190301_create_roles_table
+ | 1
+|-
+ | 5
+ | 2022_10_02_181402_patients
+ | 1
+|-
+ | 6
+ | 2022_10_02_182152_create_app_users_table
+ | 1
+|-
+ | 7
+ | 2022_10_09_130351_create_antrian
+ | 1
+|-
+ | 8
+ | 2022_10_09_130823_penyakit
+ | 1
+|-
+ | 9
+ | 2022_10_09_131102_obat
+ | 1
+|-
+ | 10
+ | 2022_10_09_131652_suplier
+ | 1
+|-
+ | 11
+ | 2022_10_09_131859_obat_masuk
+ | 1
+|-
+ | 12
+ | 2022_10_09_132330_obat_keluar
+ | 1
+|-
+ | 13
+ | 2022_10_09_132451_resep
+ | 1
+|-
+ | 14
+ | 2022_10_09_132843_detil_resep
+ | 1
+|-
+ | 15
+ | 2022_10_09_133027_dokter
+ | 1
+|}
+
+
+<!--
+Table data for `obat`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''obat'''
+|-
+ ! id
+ ! kode_obat
+ ! nama_obat
+ ! stock
+ ! harga_jual
+ ! harga_beli
+ ! id_suplier
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `obat_keluar`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''obat_keluar'''
+|-
+ ! id
+ ! id_obat
+ ! jumlah_obat
+ ! tgl_masuk
+ ! id_resep
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `obat_masuk`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''obat_masuk'''
+|-
+ ! id
+ ! id_obat
+ ! jumlah_obat
+ ! tgl_masuk
+ ! id_suplier
+ ! expired
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `patients`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''patients'''
+|-
+ ! id
+ ! rm_number
+ ! name
+ ! identity_number
+ ! place_of_birth
+ ! date_of_birth
+ ! address
+ ! insurance
+ ! is_valid
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `penyakit`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''penyakit'''
+|-
+ ! id
+ ! nama_penyakit
+ ! jenis_penyakit
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `personal_access_tokens`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''personal_access_tokens'''
+|-
+ ! id
+ ! tokenable_type
+ ! tokenable_id
+ ! name
+ ! token
+ ! abilities
+ ! last_used_at
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `resep`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''resep'''
+|-
+ ! id
+ ! id_pasien
+ ! tgl_berobat
+ ! total_biaya
+ ! id_penyakit
+ ! id_dokter
+ ! biaya_obat
+ ! no_resep
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `roles`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''roles'''
+|-
+ ! id
+ ! name
+ ! created_at
+ ! updated_at
+|-
+ | RL-48588547
+ | Admin
+ | 
+ | 
+|-
+ | RL-72012796
+ | Apoteker
+ | 
+ | 
+|-
+ | RL-72419084
+ | Resepsionis
+ | 
+ | 
+|-
+ | RL-74726069
+ | Dokter
+ | 
+ | 
+|}
+
+
+<!--
+Table data for `suplier`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''suplier'''
+|-
+ ! id
+ ! nama_suplier
+ ! telp
+ ! alamat
+ ! created_at
+ ! updated_at
+|}
+
+
+<!--
+Table data for `users`
+-->
+
+{| class="wikitable sortable" style="text-align:center;"
+|+'''users'''
+|-
+ ! id
+ ! name
+ ! username
+ ! password
+ ! role_id
+ ! created_at
+ ! updated_at
+|-
+ | US-23448972
+ | Some Receptionist
+ | resepsionis
+ | $2y$10$wHBjtqgAmD6gwUMY5O8BMu.OhMyqZmeGvNvKuk0gcZHjWbyIedxKq
+ | RL-42991620
+ | 
+ | 
+|-
+ | US-29608803
+ | Some Apoteker
+ | apoteker
+ | $2y$10$Rmu/VE.G/CgqLLeEOFf/4Oh.fYDpySKv9pQqpCNruZ/AfNFYvVw62
+ | RL-14199556
+ | 
+ | 
+|-
+ | US-39222511
+ | Some Admin
+ | Admin
+ | $2y$10$vrj4KmigFk3JcRmd9w9.5uPdmQPUgt6OOnDlcZvbQt6ERyRpHn4Ym
+ | RL-44261836
+ | 
+ | 
+|-
+ | US-61102665
+ | Some Doctor
+ | dokter
+ | $2y$10$GJ3l4ZD9CpWD6niYv1qlyO8fnFRYZ.QjX9xDF0lkpEj.U2qP/dz.q
+ | RL-77519384
+ | 
+ | 
+|}
+

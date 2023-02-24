@@ -1,0 +1,13 @@
+.gambarpp {
+    width: 100px;
+}
+
+.table th {
+    vertical-align: baseline;
+    background-color:#024a4d;
+    color: white;
+}
+
+.table td {
+    vertical-align: baseline;
+    } 
